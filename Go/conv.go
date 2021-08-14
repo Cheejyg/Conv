@@ -49,7 +49,7 @@ func Uint64ToPtr(uint64_ uint64) (ptr_uint64_ *uint64) {
 func Uint64ToPtrString(uint64_ uint64) (ptr_string_ *string) {
 	ptr_string_ = new(string)
 
-	*ptr_string_ = strconv.FormatInt(int64(uint64_), 10)
+	*ptr_string_ = fmt.Sprint(uint64_)
 
 	return
 }
@@ -253,7 +253,7 @@ func Uint32ToPtr(uint32_ uint32) (ptr_uint32_ *uint32) {
 func Uint32ToPtrString(uint32_ uint32) (ptr_string_ *string) {
 	ptr_string_ = new(string)
 
-	*ptr_string_ = strconv.FormatInt(int64(uint32_), 10)
+	*ptr_string_ = fmt.Sprint(uint32_)
 
 	return
 }
@@ -457,7 +457,7 @@ func Uint16ToPtr(uint16_ uint16) (ptr_uint16_ *uint16) {
 func Uint16ToPtrString(uint16_ uint16) (ptr_string_ *string) {
 	ptr_string_ = new(string)
 
-	*ptr_string_ = strconv.FormatInt(int64(uint16_), 10)
+	*ptr_string_ = fmt.Sprint(uint16_)
 
 	return
 }
@@ -661,7 +661,7 @@ func Uint8ToPtr(uint8_ uint8) (ptr_uint8_ *uint8) {
 func Uint8ToPtrString(uint8_ uint8) (ptr_string_ *string) {
 	ptr_string_ = new(string)
 
-	*ptr_string_ = strconv.FormatInt(int64(uint8_), 10)
+	*ptr_string_ = fmt.Sprint(uint8_)
 
 	return
 }
@@ -865,7 +865,7 @@ func UintToPtr(uint_ uint) (ptr_uint_ *uint) {
 func UintToPtrString(uint_ uint) (ptr_string_ *string) {
 	ptr_string_ = new(string)
 
-	*ptr_string_ = strconv.FormatInt(int64(uint_), 10)
+	*ptr_string_ = fmt.Sprint(uint_)
 
 	return
 }
