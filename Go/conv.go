@@ -224,6 +224,35 @@ func StringToPtrBool(string_ string) (ptr_bool_ *bool) {
 
 	*ptr_bool_ = bool(parse_bool)
 
+	/*switch strings.TrimSpace(string_) {
+	case "0":
+		fallthrough
+	case "f":
+		fallthrough
+	case "F":
+		fallthrough
+	case "FALSE":
+		fallthrough
+	case "false":
+		fallthrough
+	case "False":
+		*ptr_bool_ = false
+	case "1":
+		fallthrough
+	case "t":
+		fallthrough
+	case "T":
+		fallthrough
+	case "TRUE":
+		fallthrough
+	case "true":
+		fallthrough
+	case "True":
+		*ptr_bool_ = true
+	default:
+		ptr_bool_ = nil
+	}*/
+
 	return
 }
 
@@ -375,6 +404,34 @@ func StringToBool(string_ string) (bool_ bool) {
 	}
 
 	bool_ = bool(parse_bool)
+
+	/* switch strings.TrimSpace(string_) {
+	case "0":
+		fallthrough
+	case "f":
+		fallthrough
+	case "F":
+		fallthrough
+	case "FALSE":
+		fallthrough
+	case "false":
+		fallthrough
+	case "False":
+		bool_ = false
+	case "1":
+		fallthrough
+	case "t":
+		fallthrough
+	case "T":
+		fallthrough
+	case "TRUE":
+		fallthrough
+	case "true":
+		fallthrough
+	case "True":
+		bool_ = true
+	default:
+	} */
 
 	return
 }
