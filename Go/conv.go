@@ -1,6 +1,7 @@
 package conv
 
 import (
+	"fmt"
 	"strconv"
 )
 
@@ -28,7 +29,7 @@ func Itoa(int_ int) (string_ string) {
 
 // Int64ToString parses int64 int64_ to string.
 func Int64ToString(int64_ int64) (string_ string) {
-	return strconv.FormatInt(int64(int64_), 10)
+	return fmt.Sprint(int64_)
 }
 
 // Int64ToPtr is equivalent to Int64ToPtrInt64(int64_).
@@ -40,7 +41,7 @@ func Int64ToPtr(int64_ int64) (ptr_int64_ *int64) {
 func Int64ToPtrString(int64_ int64) (ptr_string_ *string) {
 	ptr_string_ = new(string)
 
-	*ptr_string_ = strconv.FormatInt(int64(int64_), 10)
+	*ptr_string_ = fmt.Sprint(int64_)
 
 	return
 }
@@ -227,7 +228,7 @@ func Int64ToBool(int64_ int64) (bool_ bool) {
 
 // Int32ToString parses int32 int32_ to string.
 func Int32ToString(int32_ int32) (string_ string) {
-	return strconv.FormatInt(int64(int32_), 10)
+	return fmt.Sprint(int32_)
 }
 
 // Int32ToPtr is equivalent to Int32ToPtrInt32(int32_).
@@ -239,7 +240,7 @@ func Int32ToPtr(int32_ int32) (ptr_int32_ *int32) {
 func Int32ToPtrString(int32_ int32) (ptr_string_ *string) {
 	ptr_string_ = new(string)
 
-	*ptr_string_ = strconv.FormatInt(int64(int32_), 10)
+	*ptr_string_ = fmt.Sprint(int32_)
 
 	return
 }
@@ -426,7 +427,7 @@ func Int32ToBool(int32_ int32) (bool_ bool) {
 
 // Int16ToString parses int16 int16_ to string.
 func Int16ToString(int16_ int16) (string_ string) {
-	return strconv.FormatInt(int64(int16_), 10)
+	return fmt.Sprint(int16_)
 }
 
 // Int16ToPtr is equivalent to Int16ToPtrInt16(int16_).
@@ -438,7 +439,7 @@ func Int16ToPtr(int16_ int16) (ptr_int16_ *int16) {
 func Int16ToPtrString(int16_ int16) (ptr_string_ *string) {
 	ptr_string_ = new(string)
 
-	*ptr_string_ = strconv.FormatInt(int64(int16_), 10)
+	*ptr_string_ = fmt.Sprint(int16_)
 
 	return
 }
@@ -625,7 +626,7 @@ func Int16ToBool(int16_ int16) (bool_ bool) {
 
 // Int8ToString parses int8 int8_ to string.
 func Int8ToString(int8_ int8) (string_ string) {
-	return strconv.FormatInt(int64(int8_), 10)
+	return fmt.Sprint(int8_)
 }
 
 // Int8ToPtr is equivalent to Int8ToPtrInt8(int8_).
@@ -637,7 +638,7 @@ func Int8ToPtr(int8_ int8) (ptr_int_ *int8) {
 func Int8ToPtrString(int8_ int8) (ptr_string_ *string) {
 	ptr_string_ = new(string)
 
-	*ptr_string_ = strconv.FormatInt(int64(int8_), 10)
+	*ptr_string_ = fmt.Sprint(int8_)
 
 	return
 }
@@ -824,7 +825,7 @@ func Int8ToBool(int8_ int8) (bool_ bool) {
 
 // IntToString parses int int_ to string.
 func IntToString(int_ int) (string_ string) {
-	return strconv.FormatInt(int64(int_), 10)
+	return fmt.Sprint(int_)
 }
 
 // IntToPtr is equivalent to IntToPtrInt(int_).
@@ -836,7 +837,7 @@ func IntToPtr(int_ int) (ptr_int_ *int) {
 func IntToPtrString(int_ int) (ptr_string_ *string) {
 	ptr_string_ = new(string)
 
-	*ptr_string_ = strconv.FormatInt(int64(int_), 10)
+	*ptr_string_ = fmt.Sprint(int_)
 
 	return
 }
