@@ -182,6 +182,11 @@ func Int64ToUint(int64_ int64) (uint_ uint) {
 	return
 }
 
+// Int64ToInt64 returns int64 int64_.
+func Int64ToInt64(int64_ int64) int64 {
+	return int64_
+}
+
 // Int64ToInt32 parses int64 int64_ to int32.
 func Int64ToInt32(int64_ int64) (int32_ int32) {
 	int32_ = int32(int64_)
@@ -386,6 +391,11 @@ func Int32ToInt64(int32_ int32) (int64_ int64) {
 	int64_ = int64(int32_)
 
 	return
+}
+
+// Int32ToInt32 returns int32 int32_.
+func Int32ToInt32(int32_ int32) int32 {
+	return int32_
 }
 
 // Int32ToInt16 parses int32 int32_ to int16.
@@ -594,6 +604,11 @@ func Int16ToInt32(int16_ int16) (int32_ int32) {
 	return
 }
 
+// Int16ToInt16 returns int16 int16_.
+func Int16ToInt16(int16_ int16) int16 {
+	return int16_
+}
+
 // Int16ToInt8 parses int16 int16_ to int8.
 func Int16ToInt8(int16_ int16) (int8_ int8) {
 	int8_ = int8(int16_)
@@ -800,6 +815,11 @@ func Int8ToInt16(int8_ int8) (int16_ int16) {
 	return
 }
 
+// Int8ToInt8 returns int8 int8_.
+func Int8ToInt8(int8_ int8) int8 {
+	return int8_
+}
+
 // Int8ToInt parses int8 int8_ to int.
 func Int8ToInt(int8_ int8) (int_ int) {
 	int_ = int(int8_)
@@ -988,6 +1008,11 @@ func IntToInt8(int_ int) (int8_ int8) {
 	return int8(int_)
 }
 
+// IntToInt returns int int_.
+func IntToInt(int_ int) int {
+	return int_
+}
+
 // IntToBool parses int int_ to bool.
 func IntToBool(int_ int) (bool_ bool) {
 	if int_ == 0 { // || int_ < 0 {
@@ -1084,4 +1109,9 @@ func BoolToInt(bool_ bool) (int_ int) {
 	}
 
 	return
+}
+
+// BoolToBool returns bool bool_.
+func BoolToBool(bool_ bool) bool {
+	return bool_
 }
