@@ -63,7 +63,11 @@ func BoolToPtrInt(bool_ bool) (ptr_int_ *int) {
 
 // BoolToPtrBool parses bool bool_ to *bool.
 func BoolToPtrBool(bool_ bool) (ptr_bool_ *bool) {
-	return &bool_
+	ptr_bool_ = new(bool)
+
+	*ptr_bool_ = bool(bool_)
+
+	return
 }
 
 // BoolToUint parses bool bool_ to uint.
