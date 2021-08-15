@@ -14,11 +14,11 @@ public class Conv {
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	/**
-	 * ToString parses <code>Object</code> object_ to <code>string</code>.
+	 * ToString parses <code>Object</code> object_ to <code>String</code>.
 	 * 
 	 * @author Cheejyg
 	 * @param object_ The <code>Object</code> to be parsed.
-	 * @return <code>string</code>
+	 * @return <code>String</code>
 	 * @see Conv
 	 */
 	public static String ToString(Object object_) {
