@@ -440,6 +440,48 @@ func StringToBool(string_ string) (bool_ bool) {
 // Slice conversions
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// IntsToSlicePtrInt parses int(s) ints_ to []*int.
+func IntsToSlicePtrInt(ints_ ...int) (slice_ptr_int_ []*int) {
+	slice_ptr_int_ = make([]*int, len(ints_))
+
+	for i, int_ := range ints_ {
+		ptr_int_ := new(int)
+
+		*ptr_int_ = int(int_)
+
+		slice_ptr_int_[i] = ptr_int_
+	}
+
+	return
+}
+
+// IntsToSliceInt parses int(s) ints_ to []int.
+func IntsToSliceInt(ints_ ...int) (slice_int_ []int) {
+	return ints_
+}
+
+// IntsToPtrSlicePtrInt parses int(s) ints_ to *[]*int.
+func IntsToPtrSlicePtrInt(ints_ ...int) (ptr_slice_ptr_int_ *[]*int) {
+	slice_ptr_int_ := make([]*int, len(ints_))
+
+	for i, int_ := range ints_ {
+		ptr_int_ := new(int)
+
+		*ptr_int_ = int(int_)
+
+		slice_ptr_int_[i] = ptr_int_
+	}
+
+	ptr_slice_ptr_int_ = &slice_ptr_int_
+
+	return
+}
+
+// IntsToPtrSliceInt parses int(s) ints_ to *[]int.
+func IntsToPtrSliceInt(ints_ ...int) (ptr_slice_int_ *[]int) {
+	return &ints_
+}
+
 // BoolsToSlicePtrBool parses bool(s) bools_ to []*bool.
 func BoolsToSlicePtrBool(bools_ ...bool) (slice_ptr_bool_ []*bool) {
 	slice_ptr_bool_ = make([]*bool, len(bools_))
