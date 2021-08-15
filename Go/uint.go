@@ -67,7 +67,11 @@ func UintToPtrUint8(uint_ uint) (ptr_uint8_ *uint8) {
 
 // UintToPtrUint parses uint uint_ to *uint.
 func UintToPtrUint(uint_ uint) (ptr_uint_ *uint) {
-	return &uint_
+	ptr_uint_ = new(uint)
+
+	*ptr_uint_ = uint(uint_)
+
+	return
 }
 
 // UintToPtrInt64 parses uint uint_ to *int64.
