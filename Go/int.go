@@ -112,7 +112,11 @@ func IntToPtrInt8(int_ int) (ptr_int8_ *int8) {
 
 // IntToPtrInt parses int int_ to *int.
 func IntToPtrInt(int_ int) (ptr_int_ *int) {
-	return &int_
+	ptr_int_ = new(int)
+
+	*ptr_int_ = int(int_)
+
+	return
 }
 
 // IntToPtrBool parses int int_ to *bool.
