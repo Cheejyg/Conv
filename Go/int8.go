@@ -103,7 +103,11 @@ func Int8ToPtrInt16(int8_ int8) (ptr_int16_ *int16) {
 
 // Int8ToPtrInt8 parses int8 int8_ to *int8
 func Int8ToPtrInt8(int8_ int8) (ptr_int8_ *int8) {
-	return &int8_
+	ptr_int8_ = new(int8)
+
+	*ptr_int8_ = int8(int8_)
+
+	return
 }
 
 // Int8ToPtrInt parses int8 int8_ to *int
