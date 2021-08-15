@@ -1,8 +1,6 @@
 package conv
 
-import (
-	"strconv"
-)
+import "fmt"
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // import conv "github.com/Cheejyg/conv/Go"
@@ -14,7 +12,7 @@ import (
 
 // BoolToString parses bool bool_ to string.
 func BoolToString(bool_ bool) (string_ string) {
-	return strconv.FormatBool(bool_)
+	return fmt.Sprint(bool_)
 }
 
 // BoolToPtr is equivalent to BoolToPtrBool(bool_).
@@ -26,7 +24,7 @@ func BoolToPtr(bool_ bool) (ptr_bool_ *bool) {
 func BoolToPtrString(bool_ bool) (ptr_string_ *string) {
 	ptr_string_ = new(string)
 
-	*ptr_string_ = strconv.FormatBool(bool_)
+	*ptr_string_ = fmt.Sprint(bool_)
 
 	return
 }
