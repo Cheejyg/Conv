@@ -58,7 +58,11 @@ func Uint8ToPtrUint16(uint8_ uint8) (ptr_uint16_ *uint16) {
 
 // Uint8ToPtrUint8 parses uint8 uint8_ to *uint8.
 func Uint8ToPtrUint8(uint8_ uint8) (ptr_uint8_ *uint8) {
-	return &uint8_
+	ptr_uint8_ = new(uint8)
+
+	*ptr_uint8_ = uint8_
+
+	return
 }
 
 // Uint8ToPtrUint parses uint8 uint8_ to *uint.
