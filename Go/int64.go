@@ -76,7 +76,11 @@ func Int64ToPtrUint(int64_ int64) (ptr_uint_ *uint) {
 
 // Int64ToPtrInt64 parses int64 int64_ to *int64.
 func Int64ToPtrInt64(int64_ int64) (ptr_int64_ *int64) {
-	return &int64_
+	ptr_int64_ = new(int64)
+
+	*ptr_int64_ = int64(int64_)
+
+	return
 }
 
 // Int64ToPtrInt32 parses int64 int64_ to *int32.
