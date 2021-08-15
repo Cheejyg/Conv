@@ -25,7 +25,11 @@ func StringToPtr(string_ string) (ptr_string_ *string) {
 
 // StringToPtrString parses string string_ to *string.
 func StringToPtrString(string_ string) (ptr_string_ *string) {
-	return &string_
+	ptr_string_ = new(string)
+
+	*ptr_string_ = string(string_)
+
+	return
 }
 
 // StringToPtrUint64 parses string string_ to *uint64.
