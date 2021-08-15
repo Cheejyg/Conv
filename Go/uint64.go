@@ -31,7 +31,11 @@ func Uint64ToPtrString(uint64_ uint64) (ptr_string_ *string) {
 
 // Uint64ToPtrUint64 parses uint64 uint64_ to *uint64.
 func Uint64ToPtrUint64(uint64_ uint64) (ptr_uint64_ *uint64) {
-	return &uint64_
+	ptr_uint64_ = new(uint64)
+
+	*ptr_uint64_ = uint64(uint64_)
+
+	return
 }
 
 // Uint64ToPtrUint32 parses uint64 uint64_ to *uint32.
