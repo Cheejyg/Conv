@@ -437,6 +437,52 @@ func StringToBool(string_ string) (bool_ bool) {
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Slice conversions
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// BoolsToSlicePtrBool parses bool(s) bools_ to []*bool.
+func BoolsToSlicePtrBool(bools_ ...bool) (slice_ptr_bool_ []*bool) {
+	slice_ptr_bool_ = make([]*bool, len(bools_))
+
+	for i, bool_ := range bools_ {
+		ptr_bool_ := new(bool)
+
+		*ptr_bool_ = bool(bool_)
+
+		slice_ptr_bool_[i] = ptr_bool_
+	}
+
+	return
+}
+
+// BoolsToSliceBool parses bool(s) bools_ to []bool.
+func BoolsToSliceBool(bools_ ...bool) (slice_bool_ []bool) {
+	return bools_
+}
+
+// BoolsToPtrSlicePtrBool parses bool(s) bools_ to *[]*bool.
+func BoolsToPtrSlicePtrBool(bools_ ...bool) (ptr_slice_ptr_bool_ *[]*bool) {
+	slice_ptr_bool_ := make([]*bool, len(bools_))
+
+	for i, bool_ := range bools_ {
+		ptr_bool_ := new(bool)
+
+		*ptr_bool_ = bool(bool_)
+
+		slice_ptr_bool_[i] = ptr_bool_
+	}
+
+	ptr_slice_ptr_bool_ = &slice_ptr_bool_
+
+	return
+}
+
+// BoolsToPtrSliceBool parses bool(s) bools_ to *[]bool.
+func BoolsToPtrSliceBool(bools_ ...bool) (ptr_slice_bool_ *[]bool) {
+	return &bools_
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // uint64 conversions
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
