@@ -8,6 +8,48 @@ package conv
 // Slice conversions
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// StringsToSlicePtrString parses string(s) strings_ to []*string.
+func StringsToSlicePtrString(strings_ ...string) (slice_ptr_string_ []*string) {
+	slice_ptr_string_ = make([]*string, len(strings_))
+
+	for i, string_ := range strings_ {
+		ptr_string_ := new(string)
+
+		*ptr_string_ = string(string_)
+
+		slice_ptr_string_[i] = ptr_string_
+	}
+
+	return
+}
+
+// StringsToSliceString parses string(s) strings_ to []string.
+func StringsToSliceString(strings_ ...string) (slice_string_ []string) {
+	return strings_
+}
+
+// StringsToPtrSlicePtrString parses string(s) strings_ to *[]*string.
+func StringsToPtrSlicePtrString(strings_ ...string) (ptr_slice_ptr_string_ *[]*string) {
+	slice_ptr_string_ := make([]*string, len(strings_))
+
+	for i, string_ := range strings_ {
+		ptr_string_ := new(string)
+
+		*ptr_string_ = string(string_)
+
+		slice_ptr_string_[i] = ptr_string_
+	}
+
+	ptr_slice_ptr_string_ = &slice_ptr_string_
+
+	return
+}
+
+// StringsToPtrSliceString parses string(s) strings_ to *[]string.
+func StringsToPtrSliceString(strings_ ...string) (ptr_slice_string_ *[]string) {
+	return &strings_
+}
+
 // Uint64sToSlicePtrUint64 parses uint64(s) uint64s_ to []*uint64.
 func Uint64sToSlicePtrUint64(uint64s_ ...uint64) (slice_ptr_uint64_ []*uint64) {
 	slice_ptr_uint64_ = make([]*uint64, len(uint64s_))
