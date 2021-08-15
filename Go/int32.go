@@ -85,7 +85,11 @@ func Int32ToPtrInt64(int32_ int32) (ptr_int64_ *int64) {
 
 // Int32ToPtrInt32 parses int32 int32_ to *int32.
 func Int32ToPtrInt32(int32_ int32) (ptr_int32_ *int32) {
-	return &int32_
+	ptr_int32_ = new(int32)
+
+	*ptr_int32_ = int32(int32_)
+
+	return
 }
 
 // Int32ToPtrInt16 parses int32 int32_ to *int16.
