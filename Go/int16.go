@@ -94,7 +94,11 @@ func Int16ToPtrInt32(int16_ int16) (ptr_int32_ *int32) {
 
 // Int16ToPtrInt16 parses int16 int16_ to *int16.
 func Int16ToPtrInt16(int16_ int16) (ptr_int16_ *int16) {
-	return &int16_
+	ptr_int16_ = new(int16)
+
+	*ptr_int16_ = int16(int16_)
+
+	return
 }
 
 // Int16ToPtrInt8 parses int16 int16_ to *int8.
