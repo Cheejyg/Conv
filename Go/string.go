@@ -20,7 +20,9 @@ func StringToString(string_ string) string {
 
 // StringToPtr is equivalent to StringToPtrString(string_).
 func StringToPtr(string_ string) (ptr_string_ *string) {
-	return StringToPtrString(string_)
+	ptr_string_ = StringToPtrString(string_)
+
+	return
 }
 
 // StringToPtrString parses string string_ to *string.
