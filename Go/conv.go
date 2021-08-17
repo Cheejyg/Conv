@@ -73,9 +73,7 @@ func StringToPtrSlicePtrString(string_, separator_ string) (ptr_slice_ptr_string
 	slice_ptr_string_ := make([]*string, len(slice_string_))
 
 	for i, string_ := range slice_string_ {
-		ptr_string_ := new(string)
-
-		*ptr_string_ = string(string_)
+		ptr_string_ := StringToPtr(string_)
 
 		slice_ptr_string_[i] = ptr_string_
 	}
@@ -138,9 +136,7 @@ func StringToPtrSlicePtrUint64(string_, separator_ string) (ptr_slice_ptr_uint64
 	slice_ptr_uint64_ := make([]*uint64, len(slice_string_))
 
 	for i, string_ := range slice_string_ {
-		ptr_uint64_ := new(uint64)
-
-		ptr_uint64_ = StringToPtrUint64(string_)
+		ptr_uint64_ := StringToPtrUint64(string_)
 		if ptr_uint64_ == nil {
 			ptr_slice_ptr_uint64_ = nil
 
@@ -216,9 +212,7 @@ func StringToPtrSlicePtrUint32(string_, separator_ string) (ptr_slice_ptr_uint32
 	slice_ptr_uint32_ := make([]*uint32, len(slice_string_))
 
 	for i, string_ := range slice_string_ {
-		ptr_uint32_ := new(uint32)
-
-		ptr_uint32_ = StringToPtrUint32(string_)
+		ptr_uint32_ := StringToPtrUint32(string_)
 		if ptr_uint32_ == nil {
 			ptr_slice_ptr_uint32_ = nil
 
@@ -294,9 +288,7 @@ func StringToPtrSlicePtrUint16(string_, separator_ string) (ptr_slice_ptr_uint16
 	slice_ptr_uint16_ := make([]*uint16, len(slice_string_))
 
 	for i, string_ := range slice_string_ {
-		ptr_uint16_ := new(uint16)
-
-		ptr_uint16_ = StringToPtrUint16(string_)
+		ptr_uint16_ := StringToPtrUint16(string_)
 		if ptr_uint16_ == nil {
 			ptr_slice_ptr_uint16_ = nil
 
@@ -372,9 +364,7 @@ func StringToPtrSlicePtrUint8(string_, separator_ string) (ptr_slice_ptr_uint8_ 
 	slice_ptr_uint8_ := make([]*uint8, len(slice_string_))
 
 	for i, string_ := range slice_string_ {
-		ptr_uint8_ := new(uint8)
-
-		ptr_uint8_ = StringToPtrUint8(string_)
+		ptr_uint8_ := StringToPtrUint8(string_)
 		if ptr_uint8_ == nil {
 			ptr_slice_ptr_uint8_ = nil
 
@@ -450,9 +440,7 @@ func StringToPtrSlicePtrUint(string_, separator_ string) (ptr_slice_ptr_uint_ *[
 	slice_ptr_uint_ := make([]*uint, len(slice_string_))
 
 	for i, string_ := range slice_string_ {
-		ptr_uint_ := new(uint)
-
-		ptr_uint_ = StringToPtrUint(string_)
+		ptr_uint_ := StringToPtrUint(string_)
 		if ptr_uint_ == nil {
 			ptr_slice_ptr_uint_ = nil
 
@@ -528,9 +516,7 @@ func StringToPtrSlicePtrInt64(string_, separator_ string) (ptr_slice_ptr_int64_ 
 	slice_ptr_int64_ := make([]*int64, len(slice_string_))
 
 	for i, string_ := range slice_string_ {
-		ptr_int64_ := new(int64)
-
-		ptr_int64_ = StringToPtrInt64(string_)
+		ptr_int64_ := StringToPtrInt64(string_)
 		if ptr_int64_ == nil {
 			ptr_slice_ptr_int64_ = nil
 
@@ -606,9 +592,7 @@ func StringToPtrSlicePtrInt32(string_, separator_ string) (ptr_slice_ptr_int32_ 
 	slice_ptr_int32_ := make([]*int32, len(slice_string_))
 
 	for i, string_ := range slice_string_ {
-		ptr_int32_ := new(int32)
-
-		ptr_int32_ = StringToPtrInt32(string_)
+		ptr_int32_ := StringToPtrInt32(string_)
 		if ptr_int32_ == nil {
 			ptr_slice_ptr_int32_ = nil
 
@@ -684,9 +668,7 @@ func StringToPtrSlicePtrInt16(string_, separator_ string) (ptr_slice_ptr_int16_ 
 	slice_ptr_int16_ := make([]*int16, len(slice_string_))
 
 	for i, string_ := range slice_string_ {
-		ptr_int16_ := new(int16)
-
-		ptr_int16_ = StringToPtrInt16(string_)
+		ptr_int16_ := StringToPtrInt16(string_)
 		if ptr_int16_ == nil {
 			ptr_slice_ptr_int16_ = nil
 
@@ -762,9 +744,7 @@ func StringToPtrSlicePtrInt8(string_, separator_ string) (ptr_slice_ptr_int8_ *[
 	slice_ptr_int8_ := make([]*int8, len(slice_string_))
 
 	for i, string_ := range slice_string_ {
-		ptr_int8_ := new(int8)
-
-		ptr_int8_ = StringToPtrInt8(string_)
+		ptr_int8_ := StringToPtrInt8(string_)
 		if ptr_int8_ == nil {
 			ptr_slice_ptr_int8_ = nil
 
@@ -840,9 +820,7 @@ func StringToPtrSlicePtrInt(string_, separator_ string) (ptr_slice_ptr_int_ *[]*
 	slice_ptr_int_ := make([]*int, len(slice_string_))
 
 	for i, string_ := range slice_string_ {
-		ptr_int_ := new(int)
-
-		ptr_int_ = StringToPtrInt(string_)
+		ptr_int_ := StringToPtrInt(string_)
 		if ptr_int_ == nil {
 			ptr_slice_ptr_int_ = nil
 
@@ -918,9 +896,7 @@ func StringToPtrSlicePtrBool(string_, separator_ string) (ptr_slice_ptr_bool_ *[
 	slice_ptr_bool_ := make([]*bool, len(slice_string_))
 
 	for i, string_ := range slice_string_ {
-		ptr_bool_ := new(bool)
-
-		ptr_bool_ = StringToPtrBool(string_)
+		ptr_bool_ := StringToPtrBool(string_)
 		if ptr_bool_ == nil {
 			ptr_slice_ptr_bool_ = nil
 
