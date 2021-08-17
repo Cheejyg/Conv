@@ -12,12 +12,16 @@ import "fmt"
 
 // Int32ToString parses int32 int32_ to string.
 func Int32ToString(int32_ int32) (string_ string) {
-	return fmt.Sprint(int32_)
+	string_ = fmt.Sprint(int32_)
+
+	return
 }
 
 // Int32ToPtr is equivalent to Int32ToPtrInt32(int32_).
 func Int32ToPtr(int32_ int32) (ptr_int32_ *int32) {
-	return Int32ToPtrInt32(int32_)
+	ptr_int32_ = Int32ToPtrInt32(int32_)
+
+	return
 }
 
 // Int32ToPtrString parses int32 int32_ to *string.
