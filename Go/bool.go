@@ -12,12 +12,15 @@ import "fmt"
 
 // BoolToString parses bool bool_ to string.
 func BoolToString(bool_ bool) (string_ string) {
-	return fmt.Sprint(bool_)
+	string_ = fmt.Sprint(bool_)
+
+	return
 }
 
 // BoolToPtr is equivalent to BoolToPtrBool(bool_).
 func BoolToPtr(bool_ bool) (ptr_bool_ *bool) {
-	return BoolToPtrBool(bool_)
+	ptr_bool_ = BoolToPtr(bool_)
+	return
 }
 
 // BoolToPtrString parses bool bool_ to *string.
