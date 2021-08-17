@@ -12,12 +12,16 @@ import "fmt"
 
 // Uint8ToString parses uint8 uint8_ to string.
 func Uint8ToString(uint8_ uint8) (string_ string) {
-	return fmt.Sprint(uint8_)
+	string_ = fmt.Sprint(uint8_)
+
+	return
 }
 
 // Uint8ToPtr is equivalent to Uint8ToPtrUint8(uint8_).
 func Uint8ToPtr(uint8_ uint8) (ptr_uint8_ *uint8) {
-	return Uint8ToPtrUint8(uint8_)
+	ptr_uint8_ = Uint8ToPtrUint8(uint8_)
+
+	return
 }
 
 // Uint8ToPtrString parses uint8 uint8_ to *string.
