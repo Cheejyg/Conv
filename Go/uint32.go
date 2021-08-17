@@ -12,12 +12,16 @@ import "fmt"
 
 // Uint32ToString parses uint32 uint32_ to string.
 func Uint32ToString(uint32_ uint32) (string_ string) {
-	return fmt.Sprint(uint32_)
+	string_ = fmt.Sprint(uint32_)
+
+	return
 }
 
 // Uint32ToPtr is equivalent to Uint32ToPtrUint32(uint32_).
 func Uint32ToPtr(uint32_ uint32) (ptr_uint32_ *uint32) {
-	return Uint32ToPtrUint32(uint32_)
+	ptr_uint32_ = Uint32ToPtrUint32(uint32_)
+
+	return
 }
 
 // Uint32ToPtrString parses uint32 uint32_ to *string.
