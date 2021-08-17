@@ -42,7 +42,7 @@ func Itoa(int_ int) (string_ string) {
 // String conversions
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// StringToSlicePtrString parses a string string_ to []*string with provided separator.
+// StringToSlicePtrString parses string string_ to []*string with provided separator.
 func StringToSlicePtrString(string_, separator_ string) (slice_ptr_string_ []*string) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -59,14 +59,14 @@ func StringToSlicePtrString(string_, separator_ string) (slice_ptr_string_ []*st
 	return
 }
 
-// StringToSliceString parses a string string_ to []string with provided separator.
+// StringToSliceString parses string string_ to []string with provided separator.
 func StringToSliceString(string_, separator_ string) (slice_string_ []string) {
 	slice_string_ = strings.Split(string_, separator_)
 
 	return
 }
 
-// StringToPtrSlicePtrString parses a string string_ to *[]*string with provided separator.
+// StringToPtrSlicePtrString parses string string_ to *[]*string with provided separator.
 func StringToPtrSlicePtrString(string_, separator_ string) (ptr_slice_ptr_string_ *[]*string) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -85,7 +85,7 @@ func StringToPtrSlicePtrString(string_, separator_ string) (ptr_slice_ptr_string
 	return
 }
 
-// StringToSliceString parses a string string_ to []string with provided separator.
+// StringToSliceString parses string string_ to []string with provided separator.
 func StringToPtrSliceString(string_, separator_ string) (ptr_slice_string_ *[]string) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -94,7 +94,7 @@ func StringToPtrSliceString(string_, separator_ string) (ptr_slice_string_ *[]st
 	return
 }
 
-// StringToSlicePtrUint64 parses a string string_ to []*uint64 with provided separator.
+// StringToSlicePtrUint64 parses string string_ to []*uint64 with provided separator.
 func StringToSlicePtrUint64(string_, separator_ string) (slice_ptr_uint64_ []*uint64) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -116,7 +116,7 @@ func StringToSlicePtrUint64(string_, separator_ string) (slice_ptr_uint64_ []*ui
 	return
 }
 
-// StringToSliceUint64 parses a string string_ to []uint64 with provided separator.
+// StringToSliceUint64 parses string string_ to []uint64 with provided separator.
 func StringToSliceUint64(string_, separator_ string) (slice_uint64_ []uint64) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -131,7 +131,7 @@ func StringToSliceUint64(string_, separator_ string) (slice_uint64_ []uint64) {
 	return
 }
 
-// StringToPtrSlicePtrUint64 parses a string string_ to *[]*uint64 with provided separator.
+// StringToPtrSlicePtrUint64 parses string string_ to *[]*uint64 with provided separator.
 func StringToPtrSlicePtrUint64(string_, separator_ string) (ptr_slice_ptr_uint64_ *[]*uint64) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -155,7 +155,7 @@ func StringToPtrSlicePtrUint64(string_, separator_ string) (ptr_slice_ptr_uint64
 	return
 }
 
-// StringToPtrSliceUint64 parses a string string_ to []uint64 with provided separator.
+// StringToPtrSliceUint64 parses string string_ to []uint64 with provided separator.
 func StringToPtrSliceUint64(string_, separator_ string) (ptr_slice_uint64_ *[]uint64) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -172,7 +172,7 @@ func StringToPtrSliceUint64(string_, separator_ string) (ptr_slice_uint64_ *[]ui
 	return
 }
 
-// StringToSlicePtrUint32 parses a string string_ to []*uint32 with provided separator.
+// StringToSlicePtrUint32 parses string string_ to []*uint32 with provided separator.
 func StringToSlicePtrUint32(string_, separator_ string) (slice_ptr_uint32_ []*uint32) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -194,7 +194,7 @@ func StringToSlicePtrUint32(string_, separator_ string) (slice_ptr_uint32_ []*ui
 	return
 }
 
-// StringToSliceUint32 parses a string string_ to []uint32 with provided separator.
+// StringToSliceUint32 parses string string_ to []uint32 with provided separator.
 func StringToSliceUint32(string_, separator_ string) (slice_uint32_ []uint32) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -209,7 +209,7 @@ func StringToSliceUint32(string_, separator_ string) (slice_uint32_ []uint32) {
 	return
 }
 
-// StringToPtrSlicePtrUint32 parses a string string_ to *[]*uint32 with provided separator.
+// StringToPtrSlicePtrUint32 parses string string_ to *[]*uint32 with provided separator.
 func StringToPtrSlicePtrUint32(string_, separator_ string) (ptr_slice_ptr_uint32_ *[]*uint32) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -233,7 +233,7 @@ func StringToPtrSlicePtrUint32(string_, separator_ string) (ptr_slice_ptr_uint32
 	return
 }
 
-// StringToPtrSliceUint32 parses a string string_ to []uint32 with provided separator.
+// StringToPtrSliceUint32 parses string string_ to []uint32 with provided separator.
 func StringToPtrSliceUint32(string_, separator_ string) (ptr_slice_uint32_ *[]uint32) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -250,7 +250,7 @@ func StringToPtrSliceUint32(string_, separator_ string) (ptr_slice_uint32_ *[]ui
 	return
 }
 
-// StringToSlicePtrUint16 parses a string string_ to []*uint16 with provided separator.
+// StringToSlicePtrUint16 parses string string_ to []*uint16 with provided separator.
 func StringToSlicePtrUint16(string_, separator_ string) (slice_ptr_uint16_ []*uint16) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -272,7 +272,7 @@ func StringToSlicePtrUint16(string_, separator_ string) (slice_ptr_uint16_ []*ui
 	return
 }
 
-// StringToSliceUint16 parses a string string_ to []uint16 with provided separator.
+// StringToSliceUint16 parses string string_ to []uint16 with provided separator.
 func StringToSliceUint16(string_, separator_ string) (slice_uint16_ []uint16) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -287,7 +287,7 @@ func StringToSliceUint16(string_, separator_ string) (slice_uint16_ []uint16) {
 	return
 }
 
-// StringToPtrSlicePtrUint16 parses a string string_ to *[]*uint16 with provided separator.
+// StringToPtrSlicePtrUint16 parses string string_ to *[]*uint16 with provided separator.
 func StringToPtrSlicePtrUint16(string_, separator_ string) (ptr_slice_ptr_uint16_ *[]*uint16) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -311,7 +311,7 @@ func StringToPtrSlicePtrUint16(string_, separator_ string) (ptr_slice_ptr_uint16
 	return
 }
 
-// StringToPtrSliceUint16 parses a string string_ to []uint16 with provided separator.
+// StringToPtrSliceUint16 parses string string_ to []uint16 with provided separator.
 func StringToPtrSliceUint16(string_, separator_ string) (ptr_slice_uint16_ *[]uint16) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -328,7 +328,7 @@ func StringToPtrSliceUint16(string_, separator_ string) (ptr_slice_uint16_ *[]ui
 	return
 }
 
-// StringToSlicePtrUint8 parses a string string_ to []*uint8 with provided separator.
+// StringToSlicePtrUint8 parses string string_ to []*uint8 with provided separator.
 func StringToSlicePtrUint8(string_, separator_ string) (slice_ptr_uint8_ []*uint8) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -350,7 +350,7 @@ func StringToSlicePtrUint8(string_, separator_ string) (slice_ptr_uint8_ []*uint
 	return
 }
 
-// StringToSliceUint8 parses a string string_ to []uint8 with provided separator.
+// StringToSliceUint8 parses string string_ to []uint8 with provided separator.
 func StringToSliceUint8(string_, separator_ string) (slice_uint8_ []uint8) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -365,7 +365,7 @@ func StringToSliceUint8(string_, separator_ string) (slice_uint8_ []uint8) {
 	return
 }
 
-// StringToPtrSlicePtrUint8 parses a string string_ to *[]*uint8 with provided separator.
+// StringToPtrSlicePtrUint8 parses string string_ to *[]*uint8 with provided separator.
 func StringToPtrSlicePtrUint8(string_, separator_ string) (ptr_slice_ptr_uint8_ *[]*uint8) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -389,7 +389,7 @@ func StringToPtrSlicePtrUint8(string_, separator_ string) (ptr_slice_ptr_uint8_ 
 	return
 }
 
-// StringToPtrSliceUint8 parses a string string_ to []uint8 with provided separator.
+// StringToPtrSliceUint8 parses string string_ to []uint8 with provided separator.
 func StringToPtrSliceUint8(string_, separator_ string) (ptr_slice_uint8_ *[]uint8) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -406,7 +406,7 @@ func StringToPtrSliceUint8(string_, separator_ string) (ptr_slice_uint8_ *[]uint
 	return
 }
 
-// StringToSlicePtrUint parses a string string_ to []*uint with provided separator.
+// StringToSlicePtrUint parses string string_ to []*uint with provided separator.
 func StringToSlicePtrUint(string_, separator_ string) (slice_ptr_uint_ []*uint) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -428,7 +428,7 @@ func StringToSlicePtrUint(string_, separator_ string) (slice_ptr_uint_ []*uint) 
 	return
 }
 
-// StringToSliceUint parses a string string_ to []uint with provided separator.
+// StringToSliceUint parses string string_ to []uint with provided separator.
 func StringToSliceUint(string_, separator_ string) (slice_uint_ []uint) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -443,7 +443,7 @@ func StringToSliceUint(string_, separator_ string) (slice_uint_ []uint) {
 	return
 }
 
-// StringToPtrSlicePtrUint parses a string string_ to *[]*uint with provided separator.
+// StringToPtrSlicePtrUint parses string string_ to *[]*uint with provided separator.
 func StringToPtrSlicePtrUint(string_, separator_ string) (ptr_slice_ptr_uint_ *[]*uint) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -467,7 +467,7 @@ func StringToPtrSlicePtrUint(string_, separator_ string) (ptr_slice_ptr_uint_ *[
 	return
 }
 
-// StringToPtrSliceUint parses a string string_ to []uint with provided separator.
+// StringToPtrSliceUint parses string string_ to []uint with provided separator.
 func StringToPtrSliceUint(string_, separator_ string) (ptr_slice_uint_ *[]uint) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -484,7 +484,7 @@ func StringToPtrSliceUint(string_, separator_ string) (ptr_slice_uint_ *[]uint) 
 	return
 }
 
-// StringToSlicePtrInt64 parses a string string_ to []*int64 with provided separator.
+// StringToSlicePtrInt64 parses string string_ to []*int64 with provided separator.
 func StringToSlicePtrInt64(string_, separator_ string) (slice_ptr_int64_ []*int64) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -506,7 +506,7 @@ func StringToSlicePtrInt64(string_, separator_ string) (slice_ptr_int64_ []*int6
 	return
 }
 
-// StringToSliceInt64 parses a string string_ to []int64 with provided separator.
+// StringToSliceInt64 parses string string_ to []int64 with provided separator.
 func StringToSliceInt64(string_, separator_ string) (slice_int64_ []int64) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -521,7 +521,7 @@ func StringToSliceInt64(string_, separator_ string) (slice_int64_ []int64) {
 	return
 }
 
-// StringToPtrSlicePtrInt64 parses a string string_ to *[]*int64 with provided separator.
+// StringToPtrSlicePtrInt64 parses string string_ to *[]*int64 with provided separator.
 func StringToPtrSlicePtrInt64(string_, separator_ string) (ptr_slice_ptr_int64_ *[]*int64) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -545,7 +545,7 @@ func StringToPtrSlicePtrInt64(string_, separator_ string) (ptr_slice_ptr_int64_ 
 	return
 }
 
-// StringToPtrSliceInt64 parses a string string_ to []int64 with provided separator.
+// StringToPtrSliceInt64 parses string string_ to []int64 with provided separator.
 func StringToPtrSliceInt64(string_, separator_ string) (ptr_slice_int64_ *[]int64) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -562,7 +562,7 @@ func StringToPtrSliceInt64(string_, separator_ string) (ptr_slice_int64_ *[]int6
 	return
 }
 
-// StringToSlicePtrInt32 parses a string string_ to []*int32 with provided separator.
+// StringToSlicePtrInt32 parses string string_ to []*int32 with provided separator.
 func StringToSlicePtrInt32(string_, separator_ string) (slice_ptr_int32_ []*int32) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -584,7 +584,7 @@ func StringToSlicePtrInt32(string_, separator_ string) (slice_ptr_int32_ []*int3
 	return
 }
 
-// StringToSliceInt32 parses a string string_ to []int32 with provided separator.
+// StringToSliceInt32 parses string string_ to []int32 with provided separator.
 func StringToSliceInt32(string_, separator_ string) (slice_int32_ []int32) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -599,7 +599,7 @@ func StringToSliceInt32(string_, separator_ string) (slice_int32_ []int32) {
 	return
 }
 
-// StringToPtrSlicePtrInt32 parses a string string_ to *[]*int32 with provided separator.
+// StringToPtrSlicePtrInt32 parses string string_ to *[]*int32 with provided separator.
 func StringToPtrSlicePtrInt32(string_, separator_ string) (ptr_slice_ptr_int32_ *[]*int32) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -623,7 +623,7 @@ func StringToPtrSlicePtrInt32(string_, separator_ string) (ptr_slice_ptr_int32_ 
 	return
 }
 
-// StringToPtrSliceInt32 parses a string string_ to []int32 with provided separator.
+// StringToPtrSliceInt32 parses string string_ to []int32 with provided separator.
 func StringToPtrSliceInt32(string_, separator_ string) (ptr_slice_int32_ *[]int32) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -640,7 +640,7 @@ func StringToPtrSliceInt32(string_, separator_ string) (ptr_slice_int32_ *[]int3
 	return
 }
 
-// StringToSlicePtrInt16 parses a string string_ to []*int16 with provided separator.
+// StringToSlicePtrInt16 parses string string_ to []*int16 with provided separator.
 func StringToSlicePtrInt16(string_, separator_ string) (slice_ptr_int16_ []*int16) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -662,7 +662,7 @@ func StringToSlicePtrInt16(string_, separator_ string) (slice_ptr_int16_ []*int1
 	return
 }
 
-// StringToSliceInt16 parses a string string_ to []int16 with provided separator.
+// StringToSliceInt16 parses string string_ to []int16 with provided separator.
 func StringToSliceInt16(string_, separator_ string) (slice_int16_ []int16) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -677,7 +677,7 @@ func StringToSliceInt16(string_, separator_ string) (slice_int16_ []int16) {
 	return
 }
 
-// StringToPtrSlicePtrInt16 parses a string string_ to *[]*int16 with provided separator.
+// StringToPtrSlicePtrInt16 parses string string_ to *[]*int16 with provided separator.
 func StringToPtrSlicePtrInt16(string_, separator_ string) (ptr_slice_ptr_int16_ *[]*int16) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -701,7 +701,7 @@ func StringToPtrSlicePtrInt16(string_, separator_ string) (ptr_slice_ptr_int16_ 
 	return
 }
 
-// StringToPtrSliceInt16 parses a string string_ to []int16 with provided separator.
+// StringToPtrSliceInt16 parses string string_ to []int16 with provided separator.
 func StringToPtrSliceInt16(string_, separator_ string) (ptr_slice_int16_ *[]int16) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -718,7 +718,7 @@ func StringToPtrSliceInt16(string_, separator_ string) (ptr_slice_int16_ *[]int1
 	return
 }
 
-// StringToSlicePtrInt8 parses a string string_ to []*int8 with provided separator.
+// StringToSlicePtrInt8 parses string string_ to []*int8 with provided separator.
 func StringToSlicePtrInt8(string_, separator_ string) (slice_ptr_int8_ []*int8) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -740,7 +740,7 @@ func StringToSlicePtrInt8(string_, separator_ string) (slice_ptr_int8_ []*int8) 
 	return
 }
 
-// StringToSliceInt8 parses a string string_ to []int8 with provided separator.
+// StringToSliceInt8 parses string string_ to []int8 with provided separator.
 func StringToSliceInt8(string_, separator_ string) (slice_int8_ []int8) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -755,7 +755,7 @@ func StringToSliceInt8(string_, separator_ string) (slice_int8_ []int8) {
 	return
 }
 
-// StringToPtrSlicePtrInt8 parses a string string_ to *[]*int8 with provided separator.
+// StringToPtrSlicePtrInt8 parses string string_ to *[]*int8 with provided separator.
 func StringToPtrSlicePtrInt8(string_, separator_ string) (ptr_slice_ptr_int8_ *[]*int8) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -779,7 +779,7 @@ func StringToPtrSlicePtrInt8(string_, separator_ string) (ptr_slice_ptr_int8_ *[
 	return
 }
 
-// StringToPtrSliceInt8 parses a string string_ to []int8 with provided separator.
+// StringToPtrSliceInt8 parses string string_ to []int8 with provided separator.
 func StringToPtrSliceInt8(string_, separator_ string) (ptr_slice_int8_ *[]int8) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -796,7 +796,7 @@ func StringToPtrSliceInt8(string_, separator_ string) (ptr_slice_int8_ *[]int8) 
 	return
 }
 
-// StringToSlicePtrInt parses a string string_ to []*int with provided separator.
+// StringToSlicePtrInt parses string string_ to []*int with provided separator.
 func StringToSlicePtrInt(string_, separator_ string) (slice_ptr_int_ []*int) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -818,7 +818,7 @@ func StringToSlicePtrInt(string_, separator_ string) (slice_ptr_int_ []*int) {
 	return
 }
 
-// StringToSliceInt parses a string string_ to []int with provided separator.
+// StringToSliceInt parses string string_ to []int with provided separator.
 func StringToSliceInt(string_, separator_ string) (slice_int_ []int) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -833,7 +833,7 @@ func StringToSliceInt(string_, separator_ string) (slice_int_ []int) {
 	return
 }
 
-// StringToPtrSlicePtrInt parses a string string_ to *[]*int with provided separator.
+// StringToPtrSlicePtrInt parses string string_ to *[]*int with provided separator.
 func StringToPtrSlicePtrInt(string_, separator_ string) (ptr_slice_ptr_int_ *[]*int) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -857,7 +857,7 @@ func StringToPtrSlicePtrInt(string_, separator_ string) (ptr_slice_ptr_int_ *[]*
 	return
 }
 
-// StringToPtrSliceInt parses a string string_ to []int with provided separator.
+// StringToPtrSliceInt parses string string_ to []int with provided separator.
 func StringToPtrSliceInt(string_, separator_ string) (ptr_slice_int_ *[]int) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -874,7 +874,7 @@ func StringToPtrSliceInt(string_, separator_ string) (ptr_slice_int_ *[]int) {
 	return
 }
 
-// StringToSlicePtrBool parses a string string_ to []*bool with provided separator.
+// StringToSlicePtrBool parses string string_ to []*bool with provided separator.
 func StringToSlicePtrBool(string_, separator_ string) (slice_ptr_bool_ []*bool) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -896,7 +896,7 @@ func StringToSlicePtrBool(string_, separator_ string) (slice_ptr_bool_ []*bool) 
 	return
 }
 
-// StringToSliceBool parses a string string_ to []bool with provided separator.
+// StringToSliceBool parses string string_ to []bool with provided separator.
 func StringToSliceBool(string_, separator_ string) (slice_bool_ []bool) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -911,7 +911,7 @@ func StringToSliceBool(string_, separator_ string) (slice_bool_ []bool) {
 	return
 }
 
-// StringToPtrSlicePtrBool parses a string string_ to *[]*bool with provided separator.
+// StringToPtrSlicePtrBool parses string string_ to *[]*bool with provided separator.
 func StringToPtrSlicePtrBool(string_, separator_ string) (ptr_slice_ptr_bool_ *[]*bool) {
 	slice_string_ := strings.Split(string_, separator_)
 
@@ -935,7 +935,7 @@ func StringToPtrSlicePtrBool(string_, separator_ string) (ptr_slice_ptr_bool_ *[
 	return
 }
 
-// StringToPtrSliceBool parses a string string_ to []bool with provided separator.
+// StringToPtrSliceBool parses string string_ to []bool with provided separator.
 func StringToPtrSliceBool(string_, separator_ string) (ptr_slice_bool_ *[]bool) {
 	slice_string_ := strings.Split(string_, separator_)
 
