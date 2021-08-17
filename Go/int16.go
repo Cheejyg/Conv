@@ -12,12 +12,16 @@ import "fmt"
 
 // Int16ToString parses int16 int16_ to string.
 func Int16ToString(int16_ int16) (string_ string) {
-	return fmt.Sprint(int16_)
+	string_ = fmt.Sprint(int16_)
+
+	return
 }
 
 // Int16ToPtr is equivalent to Int16ToPtrInt16(int16_).
 func Int16ToPtr(int16_ int16) (ptr_int16_ *int16) {
-	return Int16ToPtrInt16(int16_)
+	ptr_int16_ = Int16ToPtrInt16(int16_)
+
+	return
 }
 
 // Int16ToPtrString parses int16 int16_ to *string.
