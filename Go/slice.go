@@ -25,7 +25,9 @@ func StringsToSlicePtrString(strings_ ...string) (slice_ptr_string_ []*string) {
 
 // StringsToSliceString parses string(s) strings_ to []string.
 func StringsToSliceString(strings_ ...string) (slice_string_ []string) {
-	return strings_
+	slice_string_ = strings_
+
+	return
 }
 
 // StringsToPtrSlicePtrString parses string(s) strings_ to *[]*string.
@@ -73,7 +75,9 @@ func Uint64sToSlicePtrUint64(uint64s_ ...uint64) (slice_ptr_uint64_ []*uint64) {
 
 // Uint64sToSliceUint64 parses uint64(s) uint64s_ to []uint64.
 func Uint64sToSliceUint64(uint64s_ ...uint64) (slice_uint64_ []uint64) {
-	return uint64s_
+	slice_uint64_ = uint64s_
+
+	return
 }
 
 // Uint64sToPtrSlicePtrUint64 parses uint64(s) uint64s_ to *[]*uint64.
@@ -121,7 +125,9 @@ func Uint32sToSlicePtrUint32(uint32s_ ...uint32) (slice_ptr_uint32_ []*uint32) {
 
 // Uint32sToSliceUint32 parses uint32(s) uint32s_ to []uint32.
 func Uint32sToSliceUint32(uint32s_ ...uint32) (slice_uint32_ []uint32) {
-	return uint32s_
+	slice_uint32_ = uint32s_
+
+	return
 }
 
 // Uint32sToPtrSlicePtrUint32 parses uint32(s) uint32s_ to *[]*uint32.
@@ -169,7 +175,9 @@ func Uint16sToSlicePtrUint16(uint16s_ ...uint16) (slice_ptr_uint16_ []*uint16) {
 
 // Uint16sToSliceUint16 parses uint16(s) uint16s_ to []uint16.
 func Uint16sToSliceUint16(uint16s_ ...uint16) (slice_uint16_ []uint16) {
-	return uint16s_
+	slice_uint16_ = uint16s_
+
+	return
 }
 
 // Uint16sToPtrSlicePtrUint16 parses uint16(s) uint16s_ to *[]*uint16.
@@ -217,7 +225,9 @@ func Uint8sToSlicePtrUint8(uint8s_ ...uint8) (slice_ptr_uint8_ []*uint8) {
 
 // Uint8sToSliceUint8 parses uint8(s) uint8s_ to []uint8.
 func Uint8sToSliceUint8(uint8s_ ...uint8) (slice_uint8_ []uint8) {
-	return uint8s_
+	slice_uint8_ = uint8s_
+
+	return
 }
 
 // Uint8sToPtrSlicePtrUint8 parses uint8(s) uint8s_ to *[]*uint8.
@@ -265,7 +275,9 @@ func UintsToSlicePtrUint(uints_ ...uint) (slice_ptr_uint_ []*uint) {
 
 // UintsToSliceUint parses uint(s) uints_ to []uint.
 func UintsToSliceUint(uints_ ...uint) (slice_uint_ []uint) {
-	return uints_
+	slice_uint_ = uints_
+
+	return
 }
 
 // UintsToPtrSlicePtrUint parses uint(s) uints_ to *[]*uint.
@@ -313,7 +325,9 @@ func Int64sToSlicePtrInt64(int64s_ ...int64) (slice_ptr_int64_ []*int64) {
 
 // Int64sToSliceInt64 parses int64(s) int64s_ to []int64.
 func Int64sToSliceInt64(int64s_ ...int64) (slice_int64_ []int64) {
-	return int64s_
+	slice_int64_ = int64s_
+
+	return
 }
 
 // Int64sToPtrSlicePtrInt64 parses int64(s) int64s_ to *[]*int64.
@@ -361,7 +375,8 @@ func Int32sToSlicePtrInt32(int32s_ ...int32) (slice_ptr_int32_ []*int32) {
 
 // Int32sToSliceInt32 parses int32(s) int32s_ to []int32.
 func Int32sToSliceInt32(int32s_ ...int32) (slice_int32_ []int32) {
-	return int32s_
+	slice_int32_ = int32s_
+	return
 }
 
 // Int32sToPtrSlicePtrInt32 parses int32(s) int32s_ to *[]*int32.
@@ -409,7 +424,9 @@ func Int16sToSlicePtrInt16(int16s_ ...int16) (slice_ptr_int16_ []*int16) {
 
 // Int16sToSliceInt16 parses int16(s) int16s_ to []int16.
 func Int16sToSliceInt16(int16s_ ...int16) (slice_int16_ []int16) {
-	return int16s_
+	slice_int16_ = int16s_
+
+	return
 }
 
 // Int16sToPtrSlicePtrInt16 parses int16(s) int16s_ to *[]*int16.
@@ -457,7 +474,9 @@ func Int8sToSlicePtrInt8(int8s_ ...int8) (slice_ptr_int8_ []*int8) {
 
 // Int8sToSliceInt8 parses int8(s) int8s_ to []int8.
 func Int8sToSliceInt8(int8s_ ...int8) (slice_int8_ []int8) {
-	return int8s_
+	slice_int8_ = int8s_
+
+	return
 }
 
 // Int8sToPtrSlicePtrInt8 parses int8(s) int8s_ to *[]*int8.
@@ -505,7 +524,9 @@ func IntsToSlicePtrInt(ints_ ...int) (slice_ptr_int_ []*int) {
 
 // IntsToSliceInt parses int(s) ints_ to []int.
 func IntsToSliceInt(ints_ ...int) (slice_int_ []int) {
-	return ints_
+	slice_int_ = ints_
+
+	return
 }
 
 // IntsToPtrSlicePtrInt parses int(s) ints_ to *[]*int.
@@ -553,7 +574,9 @@ func BoolsToSlicePtrBool(bools_ ...bool) (slice_ptr_bool_ []*bool) {
 
 // BoolsToSliceBool parses bool(s) bools_ to []bool.
 func BoolsToSliceBool(bools_ ...bool) (slice_bool_ []bool) {
-	return bools_
+	slice_bool_ = bools_
+
+	return
 }
 
 // BoolsToPtrSlicePtrBool parses bool(s) bools_ to *[]*bool.
