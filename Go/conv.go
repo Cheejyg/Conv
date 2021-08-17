@@ -15,7 +15,9 @@ import (
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 func ToString(interface_ interface{}) (string_ string) {
-	return fmt.Sprint(interface_)
+	string_ = fmt.Sprint(interface_)
+
+	return
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -24,12 +26,16 @@ func ToString(interface_ interface{}) (string_ string) {
 
 // Atoi is equivalent to strconv.ParseInt(s, 10, 0), converted to type int.
 func Atoi(string_ string) (int_ int, err error) {
-	return strconv.Atoi(string_)
+	int_, err = strconv.Atoi(string_)
+
+	return
 }
 
 // Itoa is equivalent to strconv.FormatInt(int64(int_), 10).
 func Itoa(int_ int) (string_ string) {
-	return strconv.Itoa(int_)
+	string_ = strconv.Itoa(int_)
+
+	return
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
