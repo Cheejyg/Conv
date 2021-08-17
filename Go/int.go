@@ -12,12 +12,15 @@ import "fmt"
 
 // IntToString parses int int_ to string.
 func IntToString(int_ int) (string_ string) {
-	return fmt.Sprint(int_)
+	string_ = fmt.Sprint(int_)
+	return
 }
 
 // IntToPtr is equivalent to IntToPtrInt(int_).
 func IntToPtr(int_ int) (ptr_int_ *int) {
-	return IntToPtrInt(int_)
+	ptr_int_ = IntToPtrInt(int_)
+
+	return
 }
 
 // IntToPtrString parses int int_ to *string.
@@ -136,47 +139,65 @@ func IntToPtrBool(int_ int) (ptr_bool_ *bool) {
 
 // IntToUint64 parses int int_ to uint64.
 func IntToUint64(int_ int) (uint64_ uint64) {
-	return uint64(int_)
+	uint64_ = uint64(int_)
+
+	return
 }
 
 // IntToUint32 parses int int_ to uint32.
 func IntToUint32(int_ int) (uint32_ uint32) {
-	return uint32(int_)
+	uint32_ = uint32(int_)
+
+	return
 }
 
 // IntToUint16 parses int int_ to uint16.
 func IntToUint16(int_ int) (uint16_ uint16) {
-	return uint16(int_)
+	uint16_ = uint16(int_)
+
+	return
 }
 
 // IntToUint8 parses int int_ to uint8.
 func IntToUint8(int_ int) (uint8_ uint8) {
-	return uint8(int_)
+	uint8_ = uint8(int_)
+
+	return
 }
 
 // IntToUint parses int int_ to uint.
 func IntToUint(int_ int) (uint_ uint) {
-	return uint(int_)
+	uint_ = uint(int_)
+
+	return
 }
 
 // IntToInt64 parses int int_ to int64.
 func IntToInt64(int_ int) (int64_ int64) {
-	return int64(int_)
+	int64_ = int64(int_)
+
+	return
 }
 
 // IntToInt32 parses int int_ to int32.
 func IntToInt32(int_ int) (int32_ int32) {
-	return int32(int_)
+	int32_ = int32(int_)
+
+	return
 }
 
 // IntToInt16 parses int int_ to int16.
 func IntToInt16(int_ int) (int16_ int16) {
-	return int16(int_)
+	int16_ = int16(int_)
+
+	return
 }
 
 // IntToInt8 parses int int_ to int8.
 func IntToInt8(int_ int) (int8_ int8) {
-	return int8(int_)
+	int8_ = int8(int_)
+
+	return
 }
 
 // IntToInt returns int int_.
