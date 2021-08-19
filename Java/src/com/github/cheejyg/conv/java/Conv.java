@@ -6,7 +6,6 @@ package com.github.cheejyg.conv.java;
 
 /**
  * @author Cheejyg
- * @see Conv
  */
 public class Conv {
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -19,7 +18,6 @@ public class Conv {
 	 * @author Cheejyg
 	 * @param object_ The <code>Object</code> to be parsed.
 	 * @return <code>String</code>
-	 * @see Conv
 	 */
 	public static String ToString(Object object_) {
 		return object_.toString();
@@ -35,7 +33,6 @@ public class Conv {
 	 * @author Cheejyg
 	 * @param boolean_ The <code>boolean</code> to be parsed.
 	 * @return <code>int</code>
-	 * @see Conv
 	 */
 	public static int BooleanToInt(boolean boolean_) {
 		if (boolean_ == false) {
@@ -54,7 +51,6 @@ public class Conv {
 	 * @author Cheejyg
 	 * @param boolean_ The <code>boolean</code> to be returned.
 	 * @return <code>boolean</code>
-	 * @see Conv
 	 */
 	public static boolean BooleanToBoolean(boolean boolean_) {
 		return boolean_;
