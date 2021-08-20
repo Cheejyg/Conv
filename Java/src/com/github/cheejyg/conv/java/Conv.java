@@ -30,6 +30,116 @@ public class Conv {
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	/**
+	 * StringToString returns <code>String</code> string_.
+	 * 
+	 * @author Cheejyg
+	 * @param string_ The <code>String</code> to be returned.
+	 * @return <code>String</code>
+	 * @see com.github.cheejyg.conv.java.String
+	 * @see com.github.cheejyg.conv.java.String#StringToString(java.lang.String
+	 *      string_)
+	 */
+	public static java.lang.String StringToString(java.lang.String string_) {
+		return String.StringToString(string_);
+	}
+
+	/**
+	 * StringToStringArray parses <code>String</code> string_ to
+	 * <code>String[]</code> with provided regex.
+	 * 
+	 * @author Cheejyg
+	 * @param string_ The <code>String</code> to be parsed.
+	 * @param regex_  The provided regex separator.
+	 * @return <code>String[]</code>
+	 * @see com.github.cheejyg.conv.java.String
+	 * @see com.github.cheejyg.conv.java.String#StringToStringArray(java.lang.String
+	 *      string_, java.lang.String regex_)
+	 */
+	public static java.lang.String[] StringToStringArray(java.lang.String string_, java.lang.String regex_) {
+		return String.StringToStringArray(string_, regex_);
+	}
+
+	/**
+	 * StringToLongArray parses <code>String</code> string_ to <code>Long[]</code>
+	 * with provided regex.
+	 * 
+	 * @author Cheejyg
+	 * @param string_ The <code>String</code> to be parsed.
+	 * @param regex_  The provided regex separator.
+	 * @return <code>Long[]</code>
+	 * @see com.github.cheejyg.conv.java.String
+	 * @see com.github.cheejyg.conv.java.String#StringToLongArray(java.lang.String
+	 *      string_, java.lang.String regex_)
+	 */
+	public static java.lang.Long[] StringToLongArray(java.lang.String string_, java.lang.String regex_) {
+		return String.StringToLongArray(string_, regex_);
+	}
+
+	/**
+	 * StringToIntegerArray parses <code>String</code> string_ to
+	 * <code>Integer[]</code> with provided regex.
+	 * 
+	 * @author Cheejyg
+	 * @param string_ The <code>String</code> to be parsed.
+	 * @param regex_  The provided regex separator.
+	 * @return <code>Integer[]</code>
+	 * @see com.github.cheejyg.conv.java.String
+	 * @see com.github.cheejyg.conv.java.String#StringToIntegerArray(java.lang.String
+	 *      string_, java.lang.String regex_)
+	 */
+	public static java.lang.Integer[] StringToIntegerArray(java.lang.String string_, java.lang.String regex_) {
+		return String.StringToIntegerArray(string_, regex_);
+	}
+
+	/**
+	 * StringToShortArray parses <code>String</code> string_ to <code>Short[]</code>
+	 * with provided regex.
+	 * 
+	 * @author Cheejyg
+	 * @param string_ The <code>String</code> to be parsed.
+	 * @param regex_  The provided regex separator.
+	 * @return <code>Short[]</code>
+	 * @see com.github.cheejyg.conv.java.String
+	 * @see com.github.cheejyg.conv.java.String#StringToShortArray(java.lang.String
+	 *      string_, java.lang.String regex_)
+	 */
+	public static java.lang.Short[] StringToShortArray(java.lang.String string_, java.lang.String regex_) {
+		return String.StringToShortArray(string_, regex_);
+	}
+
+	/**
+	 * StringToByteArray parses <code>String</code> string_ to <code>Byte[]</code>
+	 * with provided regex.
+	 * 
+	 * @author Cheejyg
+	 * @param string_ The <code>String</code> to be parsed.
+	 * @param regex_  The provided regex separator.
+	 * @return <code>Byte[]</code>
+	 * @see com.github.cheejyg.conv.java.String
+	 * @see com.github.cheejyg.conv.java.String#StringToByteArray(java.lang.String
+	 *      string_, java.lang.String regex_)
+	 */
+	public static java.lang.Byte[] StringToByteArray(java.lang.String string_, java.lang.String regex_) {
+		return String.StringToByteArray(string_, regex_);
+	}
+
+	/**
+	 * StringToBooleanArray parses <code>String</code> string_ to
+	 * <code>Boolean[]</code> with provided regex.
+	 * 
+	 * @author Cheejyg
+	 * @param string_ The <code>String</code> to be parsed.
+	 * @param regex_  The provided regex separator.
+	 * @return <code>Boolean[]</code>
+	 * @see com.github.cheejyg.conv.java.String
+	 * @see com.github.cheejyg.conv.java.String#StringToBooleanArray(java.lang.String
+	 *      string_, java.lang.String regex_)
+	 */
+	public static java.lang.Boolean[] StringToBooleanArray(java.lang.String string_, java.lang.String regex_) {
+		return String.StringToBooleanArray(string_, regex_);
+	}
+
+	/**
 	 * StringToLong parses <code>String</code> string_ to <code>Long</code>.
 	 * 
 	 * @author Cheejyg
