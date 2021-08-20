@@ -15,6 +15,18 @@ public class Array {
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	/**
+	 * ObjectsToObjectArray parses <code>Object[]</code> objects_ to
+	 * <code>Object[]</code>.
+	 * 
+	 * @author Cheejyg
+	 * @param objects_ The <code>Object[]</code> to be parsed.
+	 * @return <code>Object[]</code>
+	 */
+	public static java.lang.Object[] ObjectsToObjectArray(java.lang.Object... objects_) {
+		return objects_;
+	}
+
+	/**
 	 * LongsToLongArray parses <code>Long[]</code> longs_ to <code>Long[]</code>.
 	 * 
 	 * @author Cheejyg
