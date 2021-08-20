@@ -36,9 +36,12 @@ public class Conv {
 	 * @author Cheejyg
 	 * @param booleans_ The <code>Boolean[]</code> to be parsed.
 	 * @return <code>Boolean[]</code>
+	 * @see com.github.cheejyg.conv.java.Array
+	 * @see com.github.cheejyg.conv.java.Array#BooleansToBooleanArray(java.lang.Boolean...
+	 *      booleans_)
 	 */
 	public static java.lang.Boolean[] BooleansToBooleanArray(java.lang.Boolean... booleans_) {
-		return booleans_;
+		return Array.BooleansToBooleanArray(booleans_);
 	}
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
