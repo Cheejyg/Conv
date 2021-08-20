@@ -381,12 +381,12 @@ func StringToInt(string_ string) (int_ int) {
 
 // StringToBool parses string string_ to bool.
 func StringToBool(string_ string) (bool_ bool) {
-	parse_bool, err := strconv.ParseBool(string_)
+	parse_bool_, err := strconv.ParseBool(string_)
 	if err != nil {
 		return
 	}
 
-	bool_ = bool(parse_bool)
+	bool_ = bool(parse_bool_)
 
 	/* switch strings.TrimSpace(string_) {
 	case "0":
