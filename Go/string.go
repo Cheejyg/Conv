@@ -198,14 +198,14 @@ func StringToPtrInt(string_ string) (ptr_int_ *int) {
 func StringToPtrBool(string_ string) (ptr_bool_ *bool) {
 	ptr_bool_ = new(bool)
 
-	parse_bool, err := strconv.ParseBool(string_)
+	parse_bool_, err := strconv.ParseBool(string_)
 	if err != nil {
 		ptr_bool_ = nil
 
 		return
 	}
 
-	*ptr_bool_ = bool(parse_bool)
+	*ptr_bool_ = bool(parse_bool_)
 
 	/*switch strings.TrimSpace(string_) {
 	case "0":
