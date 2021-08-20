@@ -5,7 +5,7 @@ package com.github.cheejyg.conv.java;
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /**
- * https://github.com/Cheejyg/conv
+ * Conversion.
  * 
  * @author Cheejyg
  */
@@ -388,16 +388,11 @@ public class Conv {
 	 * @author Cheejyg
 	 * @param boolean_ The <code>boolean</code> to be parsed.
 	 * @return <code>String</code>
+	 * @see com.github.cheejyg.conv.java.Boolean
+	 * @see com.github.cheejyg.conv.java.Boolean#BooleanToString(boolean boolean_)
 	 */
 	public static java.lang.String BooleanToString(boolean boolean_) {
-		if (boolean_ == false) {
-			return "false";
-		} else if (boolean_ == true) {
-			return "true";
-		} else {
-		}
-
-		return null;
+		return Boolean.BooleanToString(boolean_);
 	}
 
 	/**
@@ -406,16 +401,11 @@ public class Conv {
 	 * @author Cheejyg
 	 * @param boolean_ The <code>boolean</code> to be parsed.
 	 * @return <code>Long</code>
+	 * @see com.github.cheejyg.conv.java.Boolean
+	 * @see com.github.cheejyg.conv.java.Boolean#BooleanToLong(boolean boolean_)
 	 */
 	public static java.lang.Long BooleanToLong(boolean boolean_) {
-		if (boolean_ == false) {
-			return 0L;
-		} else if (boolean_ == true) {
-			return 1L;
-		} else {
-		}
-
-		return null;
+		return Boolean.BooleanToLong(boolean_);
 	}
 
 	/**
@@ -425,16 +415,11 @@ public class Conv {
 	 * @author Cheejyg
 	 * @param boolean_ The <code>boolean</code> to be parsed.
 	 * @return <code>Integer</code>
+	 * @see com.github.cheejyg.conv.java.Boolean
+	 * @see com.github.cheejyg.conv.java.Boolean#BooleanToInteger(boolean boolean_)
 	 */
 	public static java.lang.Integer BooleanToInteger(boolean boolean_) {
-		if (boolean_ == false) {
-			return 0;
-		} else if (boolean_ == true) {
-			return 1;
-		} else {
-		}
-
-		return null;
+		return Boolean.BooleanToInteger(boolean_);
 	}
 
 	/**
@@ -443,16 +428,11 @@ public class Conv {
 	 * @author Cheejyg
 	 * @param boolean_ The <code>boolean</code> to be parsed.
 	 * @return <code>Short</code>
+	 * @see com.github.cheejyg.conv.java.Boolean
+	 * @see com.github.cheejyg.conv.java.Boolean#BooleanToShort(boolean boolean_)
 	 */
 	public static java.lang.Short BooleanToShort(boolean boolean_) {
-		if (boolean_ == false) {
-			return 0;
-		} else if (boolean_ == true) {
-			return 1;
-		} else {
-		}
-
-		return null;
+		return Boolean.BooleanToShort(boolean_);
 	}
 
 	/**
@@ -461,16 +441,11 @@ public class Conv {
 	 * @author Cheejyg
 	 * @param boolean_ The <code>boolean</code> to be parsed.
 	 * @return <code>Byte</code>
+	 * @see com.github.cheejyg.conv.java.Boolean
+	 * @see com.github.cheejyg.conv.java.Boolean#BooleanToByte(boolean boolean_)
 	 */
 	public static java.lang.Byte BooleanToByte(boolean boolean_) {
-		if (boolean_ == false) {
-			return 0;
-		} else if (boolean_ == true) {
-			return 1;
-		} else {
-		}
-
-		return null;
+		return Boolean.BooleanToByte(boolean_);
 	}
 
 	/**
@@ -479,8 +454,10 @@ public class Conv {
 	 * @author Cheejyg
 	 * @param boolean_ The <code>boolean</code> to be returned.
 	 * @return <code>Boolean</code>
+	 * @see com.github.cheejyg.conv.java.Boolean
+	 * @see com.github.cheejyg.conv.java.Boolean#BooleanToBoolean(boolean boolean_)
 	 */
 	public static java.lang.Boolean BooleanToBoolean(boolean boolean_) {
-		return boolean_;
+		return Boolean.BooleanToBoolean(boolean_);
 	}
 }
