@@ -303,11 +303,11 @@ public class Conv {
 	 * @author Cheejyg
 	 * @param byte_ The <code>byte</code> to be parsed.
 	 * @return <code>String</code>
+	 * @see com.github.cheejyg.conv.java.Byte
+	 * @see com.github.cheejyg.conv.java.Byte#ByteToString(byte byte_)
 	 */
 	public static java.lang.String ByteToString(byte byte_) {
-		String string_ = ToString(byte_);
-
-		return string_;
+		return Byte.ByteToString(byte_);
 	}
 
 	/**
@@ -316,11 +316,11 @@ public class Conv {
 	 * @author Cheejyg
 	 * @param byte_ The <code>byte</code> to be parsed.
 	 * @return <code>Long</code>
+	 * @see com.github.cheejyg.conv.java.Byte
+	 * @see com.github.cheejyg.conv.java.Byte#ByteToLong(byte byte_)
 	 */
 	public static java.lang.Long ByteToLong(byte byte_) {
-		Long long_ = new Long(byte_);
-
-		return long_;
+		return Byte.ByteToLong(byte_);
 	}
 
 	/**
@@ -329,11 +329,11 @@ public class Conv {
 	 * @author Cheejyg
 	 * @param byte_ The <code>byte</code> to be parsed.
 	 * @return <code>Integer</code>
+	 * @see com.github.cheejyg.conv.java.Byte
+	 * @see com.github.cheejyg.conv.java.Byte#ByteToInteger(byte byte_)
 	 */
 	public static java.lang.Integer ByteToInteger(byte byte_) {
-		java.lang.Integer integer_ = new java.lang.Integer(byte_);
-
-		return integer_;
+		return Byte.ByteToInteger(byte_);
 	}
 
 	/**
@@ -342,11 +342,11 @@ public class Conv {
 	 * @author Cheejyg
 	 * @param byte_ The <code>byte</code> to be parsed.
 	 * @return <code>Short</code>
+	 * @see com.github.cheejyg.conv.java.Byte
+	 * @see com.github.cheejyg.conv.java.Byte#ByteToShort(byte byte_)
 	 */
 	public static java.lang.Short ByteToShort(byte byte_) {
-		Short short_ = new Short(byte_);
-
-		return short_;
+		return Byte.ByteToShort(byte_);
 	}
 
 	/**
@@ -355,9 +355,11 @@ public class Conv {
 	 * @author Cheejyg
 	 * @param byte_ The <code>byte</code> to be parsed.
 	 * @return <code>Byte</code>
+	 * @see com.github.cheejyg.conv.java.Byte
+	 * @see com.github.cheejyg.conv.java.Byte#ByteToByte(byte byte_)
 	 */
 	public static java.lang.Byte ByteToByte(byte byte_) {
-		return byte_;
+		return Byte.ByteToByte(byte_);
 	}
 
 	/**
@@ -366,16 +368,11 @@ public class Conv {
 	 * @author Cheejyg
 	 * @param byte_ The <code>byte</code> to be parsed.
 	 * @return <code>Boolean</code>
+	 * @see com.github.cheejyg.conv.java.Byte
+	 * @see com.github.cheejyg.conv.java.Byte#ByteToBoolean(byte byte_)
 	 */
 	public static java.lang.Boolean ByteToBoolean(byte byte_) {
-		if (byte_ == 0) {
-			return false;
-		} else if (byte_ == 1) {
-			return true;
-		} else {
-		}
-
-		return null;
+		return Byte.ByteToBoolean(byte_);
 	}
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
