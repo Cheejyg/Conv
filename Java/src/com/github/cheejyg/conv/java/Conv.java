@@ -30,6 +30,21 @@ public class Conv {
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	/**
+	 * ObjectsToObjectArray parses <code>Object[]</code> objects_ to
+	 * <code>Object[]</code>.
+	 * 
+	 * @author Cheejyg
+	 * @param objects_ The <code>Object[]</code> to be parsed.
+	 * @return <code>Object[]</code>
+	 * @see com.github.cheejyg.conv.java.Array
+	 * @see com.github.cheejyg.conv.java.Array#ObjectsToObjectArray(java.lang.Object...
+	 *      objects_)
+	 */
+	public static java.lang.Object[] ObjectsToObjectArray(java.lang.Object... objects_) {
+		return Array.ObjectsToObjectArray(objects_);
+	}
+
+	/**
 	 * LongsToLongArray parses <code>Long[]</code> longs_ to <code>Long[]</code>.
 	 * 
 	 * @author Cheejyg
