@@ -30,6 +30,64 @@ public class Conv {
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	/**
+	 * LongsToLongArray parses <code>Long[]</code> longs_ to <code>Long[]</code>.
+	 * 
+	 * @author Cheejyg
+	 * @param longs_ The <code>Long[]</code> to be parsed.
+	 * @return <code>Long[]</code>
+	 * @see com.github.cheejyg.conv.java.Array
+	 * @see com.github.cheejyg.conv.java.Array#LongsToLongArray(java.lang.Long...
+	 *      longs_)
+	 */
+	public static java.lang.Long[] LongsToLongArray(java.lang.Long... longs_) {
+		return Array.LongsToLongArray(longs_);
+	}
+
+	/**
+	 * IntegersToIntegerArray parses <code>Integer[]</code> integers_ to
+	 * <code>Integer[]</code>.
+	 * 
+	 * @author Cheejyg
+	 * @param integers_ The <code>Integer[]</code> to be parsed.
+	 * @return <code>Integer[]</code>
+	 * @see com.github.cheejyg.conv.java.Array
+	 * @see com.github.cheejyg.conv.java.Array#IntegersToIntegerArray(java.lang.Integer...
+	 *      integers_)
+	 */
+	public static java.lang.Integer[] IntegersToIntegerArray(java.lang.Integer... integers_) {
+		return Array.IntegersToIntegerArray(integers_);
+	}
+
+	/**
+	 * ShortsToShortArray parses <code>Short[]</code> shorts_ to
+	 * <code>Short[]</code>.
+	 * 
+	 * @author Cheejyg
+	 * @param shorts_ The <code>Short[]</code> to be parsed.
+	 * @return <code>Short[]</code>
+	 * @see com.github.cheejyg.conv.java.Array
+	 * @see com.github.cheejyg.conv.java.Array#ShortsToShortArray(java.lang.Short...
+	 *      shorts_)
+	 */
+	public static java.lang.Short[] ShortsToShortArray(java.lang.Short... shorts_) {
+		return Array.ShortsToShortArray(shorts_);
+	}
+
+	/**
+	 * BytesToByteArray parses <code>Byte[]</code> bytes_ to <code>Byte[]</code>.
+	 * 
+	 * @author Cheejyg
+	 * @param bytes_ The <code>Byte[]</code> to be parsed.
+	 * @return <code>Byte[]</code>
+	 * @see com.github.cheejyg.conv.java.Array
+	 * @see com.github.cheejyg.conv.java.Array#BytesToByteArray(java.lang.Byte...
+	 *      bytes_)
+	 */
+	public static java.lang.Byte[] BytesToByteArray(java.lang.Byte... bytes_) {
+		return Array.BytesToByteArray(bytes_);
+	}
+
+	/**
 	 * BooleansToBooleanArray parses <code>Boolean[]</code> booleans_ to
 	 * <code>Boolean[]</code>.
 	 * 
