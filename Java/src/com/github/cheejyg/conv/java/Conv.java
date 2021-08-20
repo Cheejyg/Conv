@@ -30,6 +30,62 @@ public class Conv {
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 	/**
+	 * StringToLong parses <code>String</code> string_ to <code>Long</code>.
+	 * 
+	 * @author Cheejyg
+	 * @param string_ The <code>String</code> to be parsed.
+	 * @return <code>Long</code>
+	 * @see com.github.cheejyg.conv.java.String
+	 * @see com.github.cheejyg.conv.java.String#StringToLong(java.lang.String
+	 *      string_)
+	 */
+	public static java.lang.Long StringToLong(java.lang.String string_) {
+		return String.StringToLong(string_);
+	}
+
+	/**
+	 * StringToInteger parses <code>String</code> string_ to <code>Integer</code>.
+	 * 
+	 * @author Cheejyg
+	 * @param string_ The <code>String</code> to be parsed.
+	 * @return <code>Integer</code>
+	 * @see com.github.cheejyg.conv.java.String
+	 * @see com.github.cheejyg.conv.java.String#StringToInteger(java.lang.String
+	 *      string_)
+	 */
+	public static java.lang.Integer StringToInteger(java.lang.String string_) {
+		return String.StringToInteger(string_);
+	}
+
+	/**
+	 * StringToShort parses <code>String</code> string_ to <code>Short</code>.
+	 * 
+	 * @author Cheejyg
+	 * @param string_ The <code>String</code> to be parsed.
+	 * @return <code>Short</code>
+	 * @see com.github.cheejyg.conv.java.String
+	 * @see com.github.cheejyg.conv.java.String#StringToShort(java.lang.String
+	 *      string_)
+	 */
+	public static java.lang.Short StringToShort(java.lang.String string_) {
+		return String.StringToShort(string_);
+	}
+
+	/**
+	 * StringToByte parses <code>String</code> string_ to <code>Byte</code>.
+	 * 
+	 * @author Cheejyg
+	 * @param string_ The <code>String</code> to be parsed.
+	 * @return <code>Byte</code>
+	 * @see com.github.cheejyg.conv.java.String
+	 * @see com.github.cheejyg.conv.java.String#StringToByte(java.lang.String
+	 *      string_)
+	 */
+	public static java.lang.Byte StringToByte(java.lang.String string_) {
+		return String.StringToByte(string_);
+	}
+
+	/**
 	 * StringToBoolean parses <code>String</code> string_ to <code>Boolean</code>.
 	 * 
 	 * @author Cheejyg
