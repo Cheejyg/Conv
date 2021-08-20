@@ -33,7 +33,7 @@ public class Int {
 	 * @return <code>Long</code>
 	 */
 	public static java.lang.Long IntToLong(int int_) {
-		Long long_ = new Long(int_);
+		Long long_ = java.lang.Long.valueOf(int_);
 
 		return long_;
 	}
@@ -57,7 +57,7 @@ public class Int {
 	 * @return <code>Short</code>
 	 */
 	public static java.lang.Short IntToShort(int int_) {
-		Short short_ = new Short((short) int_);
+		Short short_ = java.lang.Short.valueOf((short) int_);
 
 		return short_;
 	}
@@ -70,7 +70,7 @@ public class Int {
 	 * @return <code>Byte</code>
 	 */
 	public static java.lang.Byte IntToByte(int int_) {
-		Byte byte_ = new Byte((byte) int_);
+		Byte byte_ = java.lang.Byte.valueOf((byte) int_);
 
 		return byte_;
 	}
