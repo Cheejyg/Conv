@@ -22,7 +22,7 @@ public class Long {
 	 * @return <code>String</code>
 	 */
 	public static java.lang.String LongToString(long long_) {
-		String string_ = Conv.ToString(long_);
+		java.lang.String string_ = Conv.ToString(long_);
 
 		return string_;
 	}

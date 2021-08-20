@@ -22,7 +22,7 @@ public class Short {
 	 * @return <code>String</code>
 	 */
 	public static java.lang.String ShortToString(short short_) {
-		String string_ = Conv.ToString(short_);
+		java.lang.String string_ = Conv.ToString(short_);
 
 		return string_;
 	}
