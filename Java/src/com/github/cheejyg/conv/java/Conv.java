@@ -21,7 +21,7 @@ public class Conv {
 	 * @param object_ The <code>Object</code> to be parsed.
 	 * @return <code>String</code>
 	 */
-	public static String ToString(Object object_) {
+	public static java.lang.String ToString(java.lang.Object object_) {
 		return object_.toString();
 	}
 
@@ -37,7 +37,7 @@ public class Conv {
 	 * @param booleans_ The <code>Boolean[]</code> to be parsed.
 	 * @return <code>Boolean[]</code>
 	 */
-	public static Boolean[] BooleansToBooleanArray(Boolean... booleans_) {
+	public static java.lang.Boolean[] BooleansToBooleanArray(java.lang.Boolean... booleans_) {
 		return booleans_;
 	}
 
@@ -52,7 +52,7 @@ public class Conv {
 	 * @param long_ The <code>long</code> to be parsed.
 	 * @return <code>String</code>
 	 */
-	public static String LongToString(long long_) {
+	public static java.lang.String LongToString(long long_) {
 		String string_ = ToString(long_);
 
 		return string_;
@@ -65,7 +65,7 @@ public class Conv {
 	 * @param long_ The <code>long</code> to be parsed.
 	 * @return <code>Long</code>
 	 */
-	public static Long LongToLong(long long_) {
+	public static java.lang.Long LongToLong(long long_) {
 		return long_;
 	}
 
@@ -89,7 +89,7 @@ public class Conv {
 	 * @param long_ The <code>long</code> to be parsed.
 	 * @return <code>Short</code>
 	 */
-	public static Short LongToShort(long long_) {
+	public static java.lang.Short LongToShort(long long_) {
 		Short short_ = new Short((short) long_);
 
 		return short_;
@@ -102,7 +102,7 @@ public class Conv {
 	 * @param long_ The <code>long</code> to be parsed.
 	 * @return <code>Byte</code>
 	 */
-	public static Byte LongToByte(long long_) {
+	public static java.lang.Byte LongToByte(long long_) {
 		Byte byte_ = new Byte((byte) long_);
 
 		return byte_;
@@ -115,7 +115,7 @@ public class Conv {
 	 * @param long_ The <code>long</code> to be parsed.
 	 * @return <code>Boolean</code>
 	 */
-	public static Boolean LongToBoolean(long long_) {
+	public static java.lang.Boolean LongToBoolean(long long_) {
 		if (long_ == 0) {
 			return false;
 		} else if (long_ == 1) {
@@ -219,7 +219,7 @@ public class Conv {
 	 * @param short_ The <code>short</code> to be parsed.
 	 * @return <code>String</code>
 	 */
-	public static String ShortToString(short short_) {
+	public static java.lang.String ShortToString(short short_) {
 		String string_ = ToString(short_);
 
 		return string_;
@@ -232,7 +232,7 @@ public class Conv {
 	 * @param short_ The <code>short</code> to be parsed.
 	 * @return <code>Long</code>
 	 */
-	public static Long ShortToLong(short short_) {
+	public static java.lang.Long ShortToLong(short short_) {
 		Long long_ = new Long(short_);
 
 		return long_;
@@ -258,7 +258,7 @@ public class Conv {
 	 * @param short_ The <code>short</code> to be parsed.
 	 * @return <code>Short</code>
 	 */
-	public static Short ShortToShort(short short_) {
+	public static java.lang.Short ShortToShort(short short_) {
 		return short_;
 	}
 
@@ -269,7 +269,7 @@ public class Conv {
 	 * @param short_ The <code>short</code> to be parsed.
 	 * @return <code>Byte</code>
 	 */
-	public static Byte ShortToByte(short short_) {
+	public static java.lang.Byte ShortToByte(short short_) {
 		Byte byte_ = new Byte((byte) short_);
 
 		return byte_;
@@ -282,7 +282,7 @@ public class Conv {
 	 * @param short_ The <code>short</code> to be parsed.
 	 * @return <code>Boolean</code>
 	 */
-	public static Boolean ShortToBoolean(short short_) {
+	public static java.lang.Boolean ShortToBoolean(short short_) {
 		if (short_ == 0) {
 			return false;
 		} else if (short_ == 1) {
@@ -304,7 +304,7 @@ public class Conv {
 	 * @param byte_ The <code>byte</code> to be parsed.
 	 * @return <code>String</code>
 	 */
-	public static String ByteToString(byte byte_) {
+	public static java.lang.String ByteToString(byte byte_) {
 		String string_ = ToString(byte_);
 
 		return string_;
@@ -317,7 +317,7 @@ public class Conv {
 	 * @param byte_ The <code>byte</code> to be parsed.
 	 * @return <code>Long</code>
 	 */
-	public static Long ByteToLong(byte byte_) {
+	public static java.lang.Long ByteToLong(byte byte_) {
 		Long long_ = new Long(byte_);
 
 		return long_;
@@ -343,7 +343,7 @@ public class Conv {
 	 * @param byte_ The <code>byte</code> to be parsed.
 	 * @return <code>Short</code>
 	 */
-	public static Short ByteToShort(byte byte_) {
+	public static java.lang.Short ByteToShort(byte byte_) {
 		Short short_ = new Short(byte_);
 
 		return short_;
@@ -356,7 +356,7 @@ public class Conv {
 	 * @param byte_ The <code>byte</code> to be parsed.
 	 * @return <code>Byte</code>
 	 */
-	public static Byte ByteToByte(byte byte_) {
+	public static java.lang.Byte ByteToByte(byte byte_) {
 		return byte_;
 	}
 
@@ -367,7 +367,7 @@ public class Conv {
 	 * @param byte_ The <code>byte</code> to be parsed.
 	 * @return <code>Boolean</code>
 	 */
-	public static Boolean ByteToBoolean(byte byte_) {
+	public static java.lang.Boolean ByteToBoolean(byte byte_) {
 		if (byte_ == 0) {
 			return false;
 		} else if (byte_ == 1) {
@@ -389,7 +389,7 @@ public class Conv {
 	 * @param boolean_ The <code>boolean</code> to be parsed.
 	 * @return <code>String</code>
 	 */
-	public static String BooleanToString(boolean boolean_) {
+	public static java.lang.String BooleanToString(boolean boolean_) {
 		if (boolean_ == false) {
 			return "false";
 		} else if (boolean_ == true) {
@@ -407,7 +407,7 @@ public class Conv {
 	 * @param boolean_ The <code>boolean</code> to be parsed.
 	 * @return <code>Long</code>
 	 */
-	public static Long BooleanToLong(boolean boolean_) {
+	public static java.lang.Long BooleanToLong(boolean boolean_) {
 		if (boolean_ == false) {
 			return 0L;
 		} else if (boolean_ == true) {
@@ -444,7 +444,7 @@ public class Conv {
 	 * @param boolean_ The <code>boolean</code> to be parsed.
 	 * @return <code>Short</code>
 	 */
-	public static Short BooleanToShort(boolean boolean_) {
+	public static java.lang.Short BooleanToShort(boolean boolean_) {
 		if (boolean_ == false) {
 			return 0;
 		} else if (boolean_ == true) {
@@ -462,7 +462,7 @@ public class Conv {
 	 * @param boolean_ The <code>boolean</code> to be parsed.
 	 * @return <code>Byte</code>
 	 */
-	public static Byte BooleanToByte(boolean boolean_) {
+	public static java.lang.Byte BooleanToByte(boolean boolean_) {
 		if (boolean_ == false) {
 			return 0;
 		} else if (boolean_ == true) {
@@ -480,7 +480,7 @@ public class Conv {
 	 * @param boolean_ The <code>boolean</code> to be returned.
 	 * @return <code>Boolean</code>
 	 */
-	public static Boolean BooleanToBoolean(boolean boolean_) {
+	public static java.lang.Boolean BooleanToBoolean(boolean boolean_) {
 		return boolean_;
 	}
 }
