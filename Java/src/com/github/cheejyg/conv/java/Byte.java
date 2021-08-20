@@ -35,7 +35,7 @@ public class Byte {
 	 * @return <code>Long</code>
 	 */
 	public static java.lang.Long ByteToLong(byte byte_) {
-		java.lang.Long long_ = new Long(byte_);
+		java.lang.Long long_ = java.lang.Long.valueOf(byte_);
 
 		return long_;
 	}
@@ -48,7 +48,7 @@ public class Byte {
 	 * @return <code>Integer</code>
 	 */
 	public static java.lang.Integer ByteToInteger(byte byte_) {
-		java.lang.Integer integer_ = new java.lang.Integer(byte_);
+		java.lang.Integer integer_ = java.lang.Integer.valueOf(byte_);
 
 		return integer_;
 	}
@@ -61,7 +61,7 @@ public class Byte {
 	 * @return <code>Short</code>
 	 */
 	public static java.lang.Short ByteToShort(byte byte_) {
-		java.lang.Short short_ = new Short(byte_);
+		java.lang.Short short_ = java.lang.Short.valueOf(byte_);
 
 		return short_;
 	}
