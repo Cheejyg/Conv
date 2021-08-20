@@ -22,7 +22,7 @@ public class Int {
 	 * @return <code>String</code>
 	 */
 	public static java.lang.String IntToString(int int_) {
-		String string_ = Conv.ToString(int_);
+		java.lang.String string_ = Conv.ToString(int_);
 
 		return string_;
 	}
@@ -35,7 +35,7 @@ public class Int {
 	 * @return <code>Long</code>
 	 */
 	public static java.lang.Long IntToLong(int int_) {
-		Long long_ = java.lang.Long.valueOf(int_);
+		java.lang.Long long_ = java.lang.Long.valueOf(int_);
 
 		return long_;
 	}
@@ -59,7 +59,7 @@ public class Int {
 	 * @return <code>Short</code>
 	 */
 	public static java.lang.Short IntToShort(int int_) {
-		Short short_ = java.lang.Short.valueOf((short) int_);
+		java.lang.Short short_ = java.lang.Short.valueOf((short) int_);
 
 		return short_;
 	}
@@ -72,7 +72,7 @@ public class Int {
 	 * @return <code>Byte</code>
 	 */
 	public static java.lang.Byte IntToByte(int int_) {
-		Byte byte_ = java.lang.Byte.valueOf((byte) int_);
+		java.lang.Byte byte_ = java.lang.Byte.valueOf((byte) int_);
 
 		return byte_;
 	}
