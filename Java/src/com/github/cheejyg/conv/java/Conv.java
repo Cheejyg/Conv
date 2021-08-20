@@ -103,7 +103,7 @@ public class Conv {
 	 * @return <code>Byte</code>
 	 */
 	public static java.lang.Byte LongToByte(long long_) {
-		Byte byte_ = new Byte((byte) long_);
+		java.lang.Byte byte_ = new java.lang.Byte((byte) long_);
 
 		return byte_;
 	}
@@ -270,7 +270,7 @@ public class Conv {
 	 * @return <code>Byte</code>
 	 */
 	public static java.lang.Byte ShortToByte(short short_) {
-		Byte byte_ = new Byte((byte) short_);
+		java.lang.Byte byte_ = new java.lang.Byte((byte) short_);
 
 		return byte_;
 	}
