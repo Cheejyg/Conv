@@ -40,6 +40,91 @@ public class Conv {
 	}
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Long conversions
+	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	/**
+	 * LongToString parses <code>long</code> long_ to <code>String</code>.
+	 * 
+	 * @author Cheejyg
+	 * @param long_ The <code>long</code> to be parsed.
+	 * @return <code>String</code>
+	 */
+	public static String LongToString(long long_) {
+		String string_ = ToString(long_);
+
+		return string_;
+	}
+
+	/**
+	 * LongToLong parses <code>long</code> long_ to <code>Long</code>.
+	 * 
+	 * @author Cheejyg
+	 * @param long_ The <code>long</code> to be parsed.
+	 * @return <code>Long</code>
+	 */
+	public static Long LongToLong(long long_) {
+		return long_;
+	}
+
+	/**
+	 * LongToInteger parses <code>long</code> long_ to <code>Integer</code>.
+	 * 
+	 * @author Cheejyg
+	 * @param long_ The <code>long</code> to be parsed.
+	 * @return <code>Integer</code>
+	 */
+	public static Integer LongToInteger(long long_) {
+		Integer integer_ = new Integer((int) long_);
+
+		return integer_;
+	}
+
+	/**
+	 * LongToShort parses <code>long</code> long_ to <code>Short</code>.
+	 * 
+	 * @author Cheejyg
+	 * @param long_ The <code>long</code> to be parsed.
+	 * @return <code>Short</code>
+	 */
+	public static Short LongToShort(long long_) {
+		Short short_ = new Short((short) long_);
+
+		return short_;
+	}
+
+	/**
+	 * LongToByte parses <code>long</code> long_ to <code>Byte</code>.
+	 * 
+	 * @author Cheejyg
+	 * @param long_ The <code>long</code> to be parsed.
+	 * @return <code>Byte</code>
+	 */
+	public static Byte LongToByte(long long_) {
+		Byte byte_ = new Byte((byte) long_);
+
+		return byte_;
+	}
+
+	/**
+	 * LongToBoolean parses <code>long</code> long_ to <code>Boolean</code>.
+	 * 
+	 * @author Cheejyg
+	 * @param long_ The <code>long</code> to be parsed.
+	 * @return <code>Boolean</code>
+	 */
+	public static Boolean LongToBoolean(long long_) {
+		if (long_ == 0) {
+			return false;
+		} else if (long_ == 1) {
+			return true;
+		} else {
+		}
+
+		return null;
+	}
+
+	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Int conversions
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
