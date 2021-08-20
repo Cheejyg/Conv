@@ -19,7 +19,8 @@ func BoolToString(bool_ bool) (string_ string) {
 
 // BoolToPtr is equivalent to BoolToPtrBool(bool_).
 func BoolToPtr(bool_ bool) (ptr_bool_ *bool) {
-	ptr_bool_ = BoolToPtr(bool_)
+	ptr_bool_ = BoolToPtrBool(bool_)
+
 	return
 }
 
