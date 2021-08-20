@@ -181,7 +181,7 @@ public class String {
 		java.lang.Long long_;
 
 		try {
-			long_ = java.lang.Long.valueOf(string_);
+			long_ = java.lang.Long.valueOf(string_.trim());
 		} catch (NumberFormatException e) {
 			return null;
 		}
@@ -200,7 +200,7 @@ public class String {
 		java.lang.Integer integer_;
 
 		try {
-			integer_ = java.lang.Integer.valueOf(string_);
+			integer_ = java.lang.Integer.valueOf(string_.trim());
 		} catch (NumberFormatException e) {
 			return null;
 		}
@@ -219,7 +219,7 @@ public class String {
 		java.lang.Short short_;
 
 		try {
-			short_ = java.lang.Short.valueOf(string_);
+			short_ = java.lang.Short.valueOf(string_.trim());
 		} catch (NumberFormatException e) {
 			return null;
 		}
@@ -238,7 +238,7 @@ public class String {
 		java.lang.Byte byte_;
 
 		try {
-			byte_ = java.lang.Byte.valueOf(string_);
+			byte_ = java.lang.Byte.valueOf(string_.trim());
 		} catch (NumberFormatException e) {
 			return null;
 		}
