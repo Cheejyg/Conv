@@ -5,6 +5,8 @@ package com.github.cheejyg.conv.java;
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /**
+ * https://github.com/Cheejyg/conv
+ * 
  * @author Cheejyg
  */
 public class Conv {
@@ -74,8 +76,8 @@ public class Conv {
 	 * @param long_ The <code>long</code> to be parsed.
 	 * @return <code>Integer</code>
 	 */
-	public static Integer LongToInteger(long long_) {
-		Integer integer_ = new Integer((int) long_);
+	public static java.lang.Integer LongToInteger(long long_) {
+		java.lang.Integer integer_ = new java.lang.Integer((int) long_);
 
 		return integer_;
 	}
@@ -134,11 +136,11 @@ public class Conv {
 	 * @author Cheejyg
 	 * @param int_ The <code>int</code> to be parsed.
 	 * @return <code>String</code>
+	 * @see com.github.cheejyg.conv.java.Int
+	 * @see com.github.cheejyg.conv.java.Int#IntToString(int int_)
 	 */
-	public static String IntToString(int int_) {
-		String string_ = ToString(int_);
-
-		return string_;
+	public static java.lang.String IntToString(int int_) {
+		return Int.IntToString(int_);
 	}
 
 	/**
@@ -147,11 +149,11 @@ public class Conv {
 	 * @author Cheejyg
 	 * @param int_ The <code>int</code> to be parsed.
 	 * @return <code>Long</code>
+	 * @see com.github.cheejyg.conv.java.Int
+	 * @see com.github.cheejyg.conv.java.Int#IntToLong(int int_)
 	 */
-	public static Long IntToLong(int int_) {
-		Long long_ = new Long(int_);
-
-		return long_;
+	public static java.lang.Long IntToLong(int int_) {
+		return Int.IntToLong(int_);
 	}
 
 	/**
@@ -160,9 +162,11 @@ public class Conv {
 	 * @author Cheejyg
 	 * @param int_ The <code>int</code> to be parsed.
 	 * @return <code>Integer</code>
+	 * @see com.github.cheejyg.conv.java.Int
+	 * @see com.github.cheejyg.conv.java.Int#IntToInteger(int int_)
 	 */
-	public static Integer IntToInteger(int int_) {
-		return int_;
+	public static java.lang.Integer IntToInteger(int int_) {
+		return Int.IntToInteger(int_);
 	}
 
 	/**
@@ -171,11 +175,11 @@ public class Conv {
 	 * @author Cheejyg
 	 * @param int_ The <code>int</code> to be parsed.
 	 * @return <code>Short</code>
+	 * @see com.github.cheejyg.conv.java.Int
+	 * @see com.github.cheejyg.conv.java.Int#IntToShort(int int_)
 	 */
-	public static Short IntToShort(int int_) {
-		Short short_ = new Short((short) int_);
-
-		return short_;
+	public static java.lang.Short IntToShort(int int_) {
+		return Int.IntToShort(int_);
 	}
 
 	/**
@@ -184,11 +188,11 @@ public class Conv {
 	 * @author Cheejyg
 	 * @param int_ The <code>int</code> to be parsed.
 	 * @return <code>Byte</code>
+	 * @see com.github.cheejyg.conv.java.Int
+	 * @see com.github.cheejyg.conv.java.Int#IntToByte(int int_)
 	 */
-	public static Byte IntToByte(int int_) {
-		Byte byte_ = new Byte((byte) int_);
-
-		return byte_;
+	public static java.lang.Byte IntToByte(int int_) {
+		return Int.IntToByte(int_);
 	}
 
 	/**
@@ -197,16 +201,11 @@ public class Conv {
 	 * @author Cheejyg
 	 * @param int_ The <code>int</code> to be parsed.
 	 * @return <code>Boolean</code>
+	 * @see com.github.cheejyg.conv.java.Int
+	 * @see com.github.cheejyg.conv.java.Int#IntToBoolean(int int_)
 	 */
-	public static Boolean IntToBoolean(int int_) {
-		if (int_ == 0) {
-			return false;
-		} else if (int_ == 1) {
-			return true;
-		} else {
-		}
-
-		return null;
+	public static java.lang.Boolean IntToBoolean(int int_) {
+		return Int.IntToBoolean(int_);
 	}
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -246,8 +245,8 @@ public class Conv {
 	 * @param short_ The <code>short</code> to be parsed.
 	 * @return <code>Integer</code>
 	 */
-	public static Integer ShortToInteger(short short_) {
-		Integer integer_ = new Integer(short_);
+	public static java.lang.Integer ShortToInteger(short short_) {
+		java.lang.Integer integer_ = new java.lang.Integer(short_);
 
 		return integer_;
 	}
@@ -331,8 +330,8 @@ public class Conv {
 	 * @param byte_ The <code>byte</code> to be parsed.
 	 * @return <code>Integer</code>
 	 */
-	public static Integer ByteToInteger(byte byte_) {
-		Integer integer_ = new Integer(byte_);
+	public static java.lang.Integer ByteToInteger(byte byte_) {
+		java.lang.Integer integer_ = new java.lang.Integer(byte_);
 
 		return integer_;
 	}
@@ -427,7 +426,7 @@ public class Conv {
 	 * @param boolean_ The <code>boolean</code> to be parsed.
 	 * @return <code>Integer</code>
 	 */
-	public static Integer BooleanToInteger(boolean boolean_) {
+	public static java.lang.Integer BooleanToInteger(boolean boolean_) {
 		if (boolean_ == false) {
 			return 0;
 		} else if (boolean_ == true) {
