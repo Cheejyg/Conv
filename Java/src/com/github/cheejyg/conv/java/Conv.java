@@ -90,7 +90,7 @@ public class Conv {
 	 * @return <code>Short</code>
 	 */
 	public static java.lang.Short LongToShort(long long_) {
-		Short short_ = new Short((short) long_);
+		java.lang.Short short_ = new java.lang.Short((short) long_);
 
 		return short_;
 	}
@@ -218,11 +218,11 @@ public class Conv {
 	 * @author Cheejyg
 	 * @param short_ The <code>short</code> to be parsed.
 	 * @return <code>String</code>
+	 * @see com.github.cheejyg.conv.java.Short
+	 * @see com.github.cheejyg.conv.java.Short#ShortToString(short short_)
 	 */
 	public static java.lang.String ShortToString(short short_) {
-		String string_ = ToString(short_);
-
-		return string_;
+		return Short.ShortToString(short_);
 	}
 
 	/**
@@ -231,11 +231,11 @@ public class Conv {
 	 * @author Cheejyg
 	 * @param short_ The <code>short</code> to be parsed.
 	 * @return <code>Long</code>
+	 * @see com.github.cheejyg.conv.java.Short
+	 * @see com.github.cheejyg.conv.java.Short#ShortToLong(short short_)
 	 */
 	public static java.lang.Long ShortToLong(short short_) {
-		Long long_ = new Long(short_);
-
-		return long_;
+		return Short.ShortToLong(short_);
 	}
 
 	/**
@@ -244,11 +244,11 @@ public class Conv {
 	 * @author Cheejyg
 	 * @param short_ The <code>short</code> to be parsed.
 	 * @return <code>Integer</code>
+	 * @see com.github.cheejyg.conv.java.Short
+	 * @see com.github.cheejyg.conv.java.Short#ShortToInteger(short short_)
 	 */
 	public static java.lang.Integer ShortToInteger(short short_) {
-		java.lang.Integer integer_ = new java.lang.Integer(short_);
-
-		return integer_;
+		return Short.ShortToInteger(short_);
 	}
 
 	/**
@@ -257,9 +257,11 @@ public class Conv {
 	 * @author Cheejyg
 	 * @param short_ The <code>short</code> to be parsed.
 	 * @return <code>Short</code>
+	 * @see com.github.cheejyg.conv.java.Short
+	 * @see com.github.cheejyg.conv.java.Short#ShortToShort(short short_)
 	 */
 	public static java.lang.Short ShortToShort(short short_) {
-		return short_;
+		return Short.ShortToShort(short_);
 	}
 
 	/**
@@ -268,11 +270,11 @@ public class Conv {
 	 * @author Cheejyg
 	 * @param short_ The <code>short</code> to be parsed.
 	 * @return <code>Byte</code>
+	 * @see com.github.cheejyg.conv.java.Short
+	 * @see com.github.cheejyg.conv.java.Short#ShortToByte(short short_)
 	 */
 	public static java.lang.Byte ShortToByte(short short_) {
-		java.lang.Byte byte_ = new java.lang.Byte((byte) short_);
-
-		return byte_;
+		return Short.ShortToByte(short_);
 	}
 
 	/**
@@ -281,16 +283,11 @@ public class Conv {
 	 * @author Cheejyg
 	 * @param short_ The <code>short</code> to be parsed.
 	 * @return <code>Boolean</code>
+	 * @see com.github.cheejyg.conv.java.Short
+	 * @see com.github.cheejyg.conv.java.Short#ShortToBoolean(short short_)
 	 */
 	public static java.lang.Boolean ShortToBoolean(short short_) {
-		if (short_ == 0) {
-			return false;
-		} else if (short_ == 1) {
-			return true;
-		} else {
-		}
-
-		return null;
+		return Short.ShortToBoolean(short_);
 	}
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
