@@ -51,11 +51,11 @@ public class Conv {
 	 * @author Cheejyg
 	 * @param long_ The <code>long</code> to be parsed.
 	 * @return <code>String</code>
+	 * @see com.github.cheejyg.conv.java.Long
+	 * @see com.github.cheejyg.conv.java.Long#LongToString(long long_)
 	 */
 	public static java.lang.String LongToString(long long_) {
-		String string_ = ToString(long_);
-
-		return string_;
+		return Long.LongToString(long_);
 	}
 
 	/**
@@ -64,9 +64,11 @@ public class Conv {
 	 * @author Cheejyg
 	 * @param long_ The <code>long</code> to be parsed.
 	 * @return <code>Long</code>
+	 * @see com.github.cheejyg.conv.java.Long
+	 * @see com.github.cheejyg.conv.java.Long#LongToLong(long long_)
 	 */
 	public static java.lang.Long LongToLong(long long_) {
-		return long_;
+		return Long.LongToLong(long_);
 	}
 
 	/**
@@ -75,11 +77,11 @@ public class Conv {
 	 * @author Cheejyg
 	 * @param long_ The <code>long</code> to be parsed.
 	 * @return <code>Integer</code>
+	 * @see com.github.cheejyg.conv.java.Long
+	 * @see com.github.cheejyg.conv.java.Long#LongToInteger(long long_)
 	 */
 	public static java.lang.Integer LongToInteger(long long_) {
-		java.lang.Integer integer_ = new java.lang.Integer((int) long_);
-
-		return integer_;
+		return Long.LongToInteger(long_);
 	}
 
 	/**
@@ -88,11 +90,11 @@ public class Conv {
 	 * @author Cheejyg
 	 * @param long_ The <code>long</code> to be parsed.
 	 * @return <code>Short</code>
+	 * @see com.github.cheejyg.conv.java.Long
+	 * @see com.github.cheejyg.conv.java.Long#LongToShort(long long_)
 	 */
 	public static java.lang.Short LongToShort(long long_) {
-		java.lang.Short short_ = new java.lang.Short((short) long_);
-
-		return short_;
+		return Long.LongToShort(long_);
 	}
 
 	/**
@@ -101,11 +103,11 @@ public class Conv {
 	 * @author Cheejyg
 	 * @param long_ The <code>long</code> to be parsed.
 	 * @return <code>Byte</code>
+	 * @see com.github.cheejyg.conv.java.Long
+	 * @see com.github.cheejyg.conv.java.Long#LongToByte(long long_)
 	 */
 	public static java.lang.Byte LongToByte(long long_) {
-		java.lang.Byte byte_ = new java.lang.Byte((byte) long_);
-
-		return byte_;
+		return Long.LongToByte(long_);
 	}
 
 	/**
@@ -114,16 +116,11 @@ public class Conv {
 	 * @author Cheejyg
 	 * @param long_ The <code>long</code> to be parsed.
 	 * @return <code>Boolean</code>
+	 * @see com.github.cheejyg.conv.java.Long
+	 * @see com.github.cheejyg.conv.java.Long#LongToBoolean(long long_)
 	 */
 	public static java.lang.Boolean LongToBoolean(long long_) {
-		if (long_ == 0) {
-			return false;
-		} else if (long_ == 1) {
-			return true;
-		} else {
-		}
-
-		return null;
+		return Long.LongToBoolean(long_);
 	}
 
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
