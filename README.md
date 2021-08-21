@@ -9,4 +9,12 @@
 [![Contributors](https://img.shields.io/github/contributors/Cheejyg/conv)](https://github.com/Cheejyg/conv/graphs/contributors)
 
 # conv
+
+[![Logo](http://simpleicon.com/wp-content/uploads/retweet-128x128.png)](http://simpleicon.com/wp-content/uploads/retweet.svg)
+
 The only library you'll ever need for type conversions.
+
+# Table of contents
+
+1. [conv](#conv)
+2. [Table of contents](#table-of-contents)
