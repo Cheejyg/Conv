@@ -10,7 +10,7 @@
 
 # conv
 
-![Logo](http://simpleicon.com/wp-content/uploads/retweet-128x128.png)[](http://simpleicon.com/wp-content/uploads/retweet.svg)
+![Logo](http://simpleicon.com/wp-content/uploads/retweet-2-128x128.png)[](http://simpleicon.com/wp-content/uploads/retweet-2.svg)
 
 The only library you'll ever need for type conversions.
 
