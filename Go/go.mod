@@ -1,1 +1,1 @@
-module github.com/Cheejyg/conv/Go
+module github.com/Cheejyg/Conv/Go
