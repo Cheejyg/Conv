@@ -40,4 +40,4 @@ For major changes, please first open an issue to discuss what you would like to 
 
 # License
 
-[Mit License](https://github.com/Cheejyg/conv/blob/main/LICENSE)
+[MIT License](https://github.com/Cheejyg/conv/blob/main/LICENSE)
