@@ -21,12 +21,12 @@
 
 # Table of contents
 
-- [Conv](#conv)
-- [Table of contents](#table-of-contents)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+1. [Conv](#conv)
+2. [Table of contents](#table-of-contents)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](#license)
 
 # Installation
 
