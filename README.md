@@ -30,7 +30,29 @@
 
 # Installation
 
+![Go installation](https://img.shields.io/badge/installation-Go-blue)
+
+```go
+go get github.com/Cheejyg/Conv/Go
+```
+
+![Java installation](https://img.shields.io/badge/installation-Java-orange)
+
+1. Download [Conv.jar](https://github.com/Cheejyg/Conv/blob/main/Java/Conv.jar).
+2. Add `Conv.jar` to Java build path.
+
 # Usage
+
+![Go usage](https://img.shields.io/badge/usage-Go-blue)
+
+```go
+import Conv "github.com/Cheejyg/Conv/Go"
+```
+
+![Java usage](https://img.shields.io/badge/usage-java-orange)
+```java
+import com.github.cheejyg.conv.java.Conv;
+```
 
 # Contributing
 
