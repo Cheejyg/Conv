@@ -10,11 +10,34 @@
 
 # conv
 
+*The only library you'll ever need for type conversions.*
+
 ![Logo](http://simpleicon.com/wp-content/uploads/retweet-128x128.png)[](http://simpleicon.com/wp-content/uploads/retweet.svg)
 
-The only library you'll ever need for type conversions.
+**conv** is a collection of conversion libraries, for different languages, for handling type conversions.
+
+[![Go](https://img.shields.io/badge/-Go-blue)](https://github.com/Cheejyg/conv/tree/main/Go)
+[![Java](https://img.shields.io/badge/-Java-orange)](https://github.com/Cheejyg/conv/tree/main/Java)
 
 # Table of contents
 
 1. [conv](#conv)
 2. [Table of contents](#table-of-contents)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](#license)
+
+# Installation
+
+# Usage
+
+# Contributing
+
+Pull requests and contributions are appreciated.
+
+For major changes, please first open an issue to discuss what you would like to change.
+
+# License
+
+[Mit License](https://github.com/Cheejyg/conv/blob/main/LICENSE)
