@@ -13,8 +13,18 @@ import (
 // ToString
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// ToString parses interface{} interface_ to string.
 func ToString(interface_ interface{}) (string_ string) {
 	string_ = fmt.Sprint(interface_)
+
+	return
+}
+
+// ToPtrString parses interface{} interface_ to *string.
+func ToPtrString(interface_ interface{}) (ptr_string_ *string) {
+	ptr_string_ = new(string)
+
+	*ptr_string_ = fmt.Sprint(interface_)
 
 	return
 }
