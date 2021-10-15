@@ -46,7 +46,7 @@ go get github.com/Cheejyg/Conv/Go
 ![Go usage](https://img.shields.io/badge/usage-Go-blue)
 
 ```go
-import Conv "github.com/Cheejyg/Conv/Go"
+import conv "github.com/Cheejyg/Conv/Go"
 ```
 
 ![Java usage](https://img.shields.io/badge/usage-java-orange)
